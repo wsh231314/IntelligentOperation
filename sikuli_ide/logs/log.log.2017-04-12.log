@@ -1,0 +1,65 @@
+[FATAL] 2017-04-12 17:08:49: 1        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-12 17:08:49: 162      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-12 17:09:11: 21766     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 33.3 seconds
+[FATAL] 2017-04-12 17:10:05: 76620     [Thread-13] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_74\script_74.sikuli ] stopped with error in line 9
+[FATAL] 2017-04-12 17:10:05: 76621     [Thread-13] ( BasicLogger.java,98 ) - [error] FindFailed ( PAGE_66_FIELD_1.png: (109x149) in S(0)[0,0 1600x900] E:Y, T:3.0 )
+[FATAL] 2017-04-12 17:10:05: 76623     [Thread-13] ( BasicLogger.java,98 ) - [error] --- Traceback --- error source first
+line: module ( function ) statement 
+9: script_74temp (  <module> )     click(Pattern('PAGE_66_FIELD_1.png').targetOffset(52,71))
+[error] --- Traceback --- end --------------
+[FATAL] 2017-04-12 17:11:56: 187139     [Thread-14] ( BasicLogger.java,98 ) - [log] CLICK on L(1597,896)@S(0)[0,0 1600x900] (524 msec)
+[FATAL] 2017-04-12 17:11:57: 188172     [Thread-14] ( BasicLogger.java,98 ) - [log] CLICK on L(465,880)@S(0)[0,0 1600x900] (520 msec)
+[FATAL] 2017-04-12 17:12:00: 191346     [Thread-14] ( BasicLogger.java,98 ) - [log] CLICK on L(781,188)@S(0)[0,0 1600x900] (520 msec)
+[FATAL] 2017-04-12 17:12:00: 191346     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "http://www.wangkangzhi.com"
+[FATAL] 2017-04-12 17:12:02: 193256     [Thread-14] ( BasicLogger.java,98 ) - [log] CLICK on L(1181,190)@S(0)[0,0 1600x900] (521 msec)
+[FATAL] 2017-04-12 17:12:16: 207194     [Thread-15] ( BasicLogger.java,98 ) - [log] CLICK on L(991,896)@S(0)[0,0 1600x900] (521 msec)
+[FATAL] 2017-04-12 17:12:17: 208144     [Thread-15] ( BasicLogger.java,98 ) - [log] CLICK on L(465,880)@S(0)[0,0 1600x900] (521 msec)
+[FATAL] 2017-04-12 17:12:19: 210524     [Thread-15] ( BasicLogger.java,98 ) - [log] CLICK on L(781,188)@S(0)[0,0 1600x900] (520 msec)
+[FATAL] 2017-04-12 17:12:19: 210525     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "http://www.wangkangzhi.com"
+[FATAL] 2017-04-12 17:12:21: 212424     [Thread-15] ( BasicLogger.java,98 ) - [log] CLICK on L(1181,190)@S(0)[0,0 1600x900] (547 msec)
+[FATAL] 2017-04-12 17:12:37: 227736     [Thread-15] ( BasicLogger.java,98 ) - [log] CLICK on L(136,52)@S(0)[0,0 1600x900] (520 msec)
+[FATAL] 2017-04-12 17:12:40: 231423     [Thread-15] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_74\script_74.sikuli ] stopped with error in line 29
+[FATAL] 2017-04-12 17:12:40: 231424     [Thread-15] ( BasicLogger.java,98 ) - [error] FindFailed ( PAGE_68_FIELD_1.png: (864x154) seen at (349, 111) with 0.99 in S(0)[0,0 1600x900] E:Y, T:3.0 )
+[FATAL] 2017-04-12 17:12:40: 231425     [Thread-15] ( BasicLogger.java,98 ) - [error] --- Traceback --- error source first
+line: module ( function ) statement 
+60: Sikuli (  wait )     return SCREEN.wait(target)
+29: script_74temp (  <module> )     wait('PAGE_68_FIELD_1.png')
+[error] --- Traceback --- end --------------
+[FATAL] 2017-04-12 17:14:15: 326515     [Thread-17] ( BasicLogger.java,98 ) - [log] CLICK on L(991,896)@S(0)[0,0 1600x900] (520 msec)
+[FATAL] 2017-04-12 17:14:16: 327492     [Thread-17] ( BasicLogger.java,98 ) - [log] CLICK on L(465,880)@S(0)[0,0 1600x900] (522 msec)
+[FATAL] 2017-04-12 17:14:28: 338912     [Thread-17] ( BasicLogger.java,98 ) - [log] CLICK on L(676,109)@S(0)[0,0 1600x900] (527 msec)
+[FATAL] 2017-04-12 17:14:31: 342569     [Thread-17] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_74\script_74.sikuli ] stopped with error in line 29
+[FATAL] 2017-04-12 17:14:31: 342569     [Thread-17] ( BasicLogger.java,98 ) - [error] FindFailed ( PAGE_68_FIELD_1.png: (864x154) seen at (349, 111) with 0.99 in S(0)[0,0 1600x900] E:Y, T:3.0 )
+[FATAL] 2017-04-12 17:14:31: 342569     [Thread-17] ( BasicLogger.java,98 ) - [error] --- Traceback --- error source first
+line: module ( function ) statement 
+60: Sikuli (  wait )     return SCREEN.wait(target)
+29: script_74temp (  <module> )     wait('PAGE_68_FIELD_1.png')
+[error] --- Traceback --- end --------------
+[FATAL] 2017-04-12 17:16:15: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-12 17:16:15: 83       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-12 17:16:32: 16931     [MainThread] ( BasicLogger.java,98 ) - [error] IDE: Remembered window not valid. Going to primary screen
+[FATAL] 2017-04-12 17:16:36: 20723     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 22.6 seconds
+[FATAL] 2017-04-12 17:17:15: 59808     [Thread-12] ( BasicLogger.java,98 ) - [log] CLICK on L(1597,896)@S(0)[0,0 1600x900] (520 msec)
+[FATAL] 2017-04-12 17:17:16: 61222     [Thread-12] ( BasicLogger.java,98 ) - [log] CLICK on L(465,880)@S(0)[0,0 1600x900] (521 msec)
+[FATAL] 2017-04-12 17:17:19: 64057     [Thread-12] ( BasicLogger.java,98 ) - [log] CLICK on L(781,188)@S(0)[0,0 1600x900] (520 msec)
+[FATAL] 2017-04-12 17:17:19: 64058     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "http://www.wangkangzhi.com"
+[FATAL] 2017-04-12 17:17:21: 66026     [Thread-12] ( BasicLogger.java,98 ) - [log] CLICK on L(1181,190)@S(0)[0,0 1600x900] (522 msec)
+[FATAL] 2017-04-12 17:17:43: 87695     [Thread-14] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_74\script_74.sikuli ] stopped with error in line 9
+[FATAL] 2017-04-12 17:17:43: 87695     [Thread-14] ( BasicLogger.java,98 ) - [error] FindFailed ( PAGE_66_FIELD_1.png: (109x149) seen at (1491, 751) with 0.97 in S(0)[0,0 1600x900] E:Y, T:3.0 )
+[FATAL] 2017-04-12 17:17:43: 87696     [Thread-14] ( BasicLogger.java,98 ) - [error] --- Traceback --- error source first
+line: module ( function ) statement 
+9: script_74temp (  <module> )     click(Pattern('PAGE_66_FIELD_1.png').targetOffset(52,71))
+[error] --- Traceback --- end --------------
+[FATAL] 2017-04-12 17:39:46: 1410657     [Thread-23] ( BasicLogger.java,98 ) - [error] script [ script_75 ] stopped with error at line --unknown--
+[FATAL] 2017-04-12 17:39:46: 1410659     [Thread-23] ( BasicLogger.java,98 ) - [error] Error caused by: java.lang.IllegalArgumentException: Cannot create PyString with non-byte value
+[FATAL] 2017-04-12 17:39:54: 1419209     [Thread-24] ( BasicLogger.java,98 ) - [error] script [ script_75 ] stopped with error at line --unknown--
+[FATAL] 2017-04-12 17:39:54: 1419210     [Thread-24] ( BasicLogger.java,98 ) - [error] Error caused by: java.lang.IllegalArgumentException: Cannot create PyString with non-byte value
+[FATAL] 2017-04-12 17:45:25: 1750203     [Thread-25] ( BasicLogger.java,98 ) - [log] ( Ctrl+Alt )  TYPE "#DEL."
+[FATAL] 2017-04-12 17:45:31: 1756245     [Thread-26] ( BasicLogger.java,98 ) - [log] ( Ctrl+Alt )  TYPE "#DEL."
+[FATAL] 2017-04-12 17:46:11: 1796347     [Thread-27] ( BasicLogger.java,98 ) - [log]  TYPE "#CTRL.#ALT.#DEL."
+[FATAL] 2017-04-12 17:53:23: 2227455     [Thread-33] ( BasicLogger.java,98 ) - [log] ( Ctrl+Alt )  TYPE "#DEL."
+[FATAL] 2017-04-12 17:54:20: 2284469     [Thread-34] ( BasicLogger.java,98 ) - [error] Image: Image not valid, but TextSearch is switched off!
+[FATAL] 2017-04-12 17:54:20: 2284483     [Thread-34] ( BasicLogger.java,98 ) - [error] RunTimeIDE: Wait: Abort: Jython: at script_75temp (3)
+[FATAL] 2017-04-12 17:54:20: 2284484     [Thread-34] ( BasicLogger.java,98 ) - [error] RunTimeIDE: ImageMissing: 
+[FATAL] 2017-04-12 18:01:57: 2742041     [Thread-36] ( BasicLogger.java,98 ) - [log] ( Ctrl+Alt )  TYPE "#DEL."
+[FATAL] 2017-04-12 18:04:17: 2881588     [Thread-37] ( BasicLogger.java,98 ) - [log] ( Ctrl+Alt )  TYPE "#DEL."

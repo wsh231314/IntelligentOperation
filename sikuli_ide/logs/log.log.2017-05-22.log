@@ -1,0 +1,134 @@
+[FATAL] 2017-05-22 18:50:08: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-22 18:50:08: 276      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-22 18:50:29: 20478     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 31.0 seconds
+[FATAL] 2017-05-22 18:51:06: 57689     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli ] stopped with error in line 24 at column 4
+[FATAL] 2017-05-22 18:51:06: 57689     [Thread-12] ( BasicLogger.java,98 ) - [error] SyntaxError ( "no viable alternative at input 'popup'",  )
+[FATAL] 2017-05-22 18:52:11: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-22 18:52:11: 21       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-22 18:52:22: 11268     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 12.0 seconds
+[FATAL] 2017-05-22 18:52:30: 18726     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [4960:WinSCP.exe]
+[FATAL] 2017-05-22 18:52:32: 21371     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [4960:WinSCP.exe]
+[FATAL] 2017-05-22 18:52:34: 23533     [Thread-11] ( BasicLogger.java,74 ) - 
+javax.mail.internet.AddressException: Illegal address in string ``''
+	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:94)
+	at org.app.co.jp.com.MailManager.send(MailManager.java:78)
+	at org.app.co.jp.com.MailManager.sendMailById(MailManager.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.python.core.PyReflectedFunction.__call__(PyReflectedFunction.java:186)
+	at org.python.core.PyReflectedFunction.__call__(PyReflectedFunction.java:204)
+	at org.python.core.PyObject.__call__(PyObject.java:478)
+	at org.python.core.PyObject.__call__(PyObject.java:482)
+	at sikuli.AppUtil$py.mail_by_id$5(C:\Users\shawn.shaohua.wang\git\autoScreen\API\target\classes\Lib\sikuli\AppUtil.py:58)
+	at sikuli.AppUtil$py.call_function(C:\Users\shawn.shaohua.wang\git\autoScreen\API\target\classes\Lib\sikuli\AppUtil.py)
+	at org.python.core.PyTableCode.call(PyTableCode.java:167)
+	at org.python.core.PyBaseCode.call(PyBaseCode.java:153)
+	at org.python.core.PyFunction.__call__(PyFunction.java:423)
+	at org.python.pycode._pyx369.f$0(C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli\script_76temp.py:31)
+	at org.python.pycode._pyx369.call_function(C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli\script_76temp.py)
+	at org.python.core.PyTableCode.call(PyTableCode.java:167)
+	at org.python.core.PyCode.call(PyCode.java:18)
+	at org.python.core.Py.runCode(Py.java:1386)
+	at org.python.core.__builtin__.execfile_flags(__builtin__.java:535)
+	at org.python.util.PythonInterpreter.execfile(PythonInterpreter.java:286)
+	at org.sikuli.scriptrunner.JythonScriptRunner.runPython(JythonScriptRunner.java:206)
+	at org.sikuli.scriptrunner.JythonScriptRunner.runScript(JythonScriptRunner.java:178)
+	at org.app.co.jp.util.RunHelp$SubRun.run(RunHelp.java:88)
+	at java.lang.Thread.run(Thread.java:745)
+
+[FATAL] 2017-05-22 18:52:37: 26013     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 18:53:39: 88076     [Thread-12] ( BasicLogger.java,98 ) - [log] App.open [8484:WinSCP.exe]
+[FATAL] 2017-05-22 18:53:41: 89755     [Thread-12] ( BasicLogger.java,98 ) - [log] App.close: [8484:WinSCP.exe]
+[FATAL] 2017-05-22 18:53:42: 90771     [Thread-12] ( BasicLogger.java,74 ) - 
+javax.mail.internet.AddressException: Illegal address in string ``''
+	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:94)
+	at org.app.co.jp.com.MailManager.send(MailManager.java:78)
+	at org.app.co.jp.com.MailManager.sendMailById(MailManager.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.python.core.PyReflectedFunction.__call__(PyReflectedFunction.java:186)
+	at org.python.core.PyReflectedFunction.__call__(PyReflectedFunction.java:204)
+	at org.python.core.PyObject.__call__(PyObject.java:478)
+	at org.python.core.PyObject.__call__(PyObject.java:482)
+	at sikuli.AppUtil$py.mail_by_id$5(C:\Users\shawn.shaohua.wang\git\autoScreen\API\target\classes\Lib\sikuli\AppUtil.py:58)
+	at sikuli.AppUtil$py.call_function(C:\Users\shawn.shaohua.wang\git\autoScreen\API\target\classes\Lib\sikuli\AppUtil.py)
+	at org.python.core.PyTableCode.call(PyTableCode.java:167)
+	at org.python.core.PyBaseCode.call(PyBaseCode.java:153)
+	at org.python.core.PyFunction.__call__(PyFunction.java:423)
+	at org.python.pycode._pyx552.f$0(C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli\script_76temp.py:31)
+	at org.python.pycode._pyx552.call_function(C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli\script_76temp.py)
+	at org.python.core.PyTableCode.call(PyTableCode.java:167)
+	at org.python.core.PyCode.call(PyCode.java:18)
+	at org.python.core.Py.runCode(Py.java:1386)
+	at org.python.core.__builtin__.execfile_flags(__builtin__.java:535)
+	at org.python.util.PythonInterpreter.execfile(PythonInterpreter.java:286)
+	at org.sikuli.scriptrunner.JythonScriptRunner.runPython(JythonScriptRunner.java:206)
+	at org.sikuli.scriptrunner.JythonScriptRunner.runScript(JythonScriptRunner.java:178)
+	at org.app.co.jp.util.RunHelp$SubRun.run(RunHelp.java:88)
+	at java.lang.Thread.run(Thread.java:745)
+
+[FATAL] 2017-05-22 18:53:45: 94005     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 18:55:48: 1        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-22 18:55:48: 20       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-22 18:55:59: 11426     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 12.2 seconds
+[FATAL] 2017-05-22 18:56:06: 17975     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [4236:WinSCP.exe]
+[FATAL] 2017-05-22 18:56:08: 19852     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [4236:WinSCP.exe]
+[DEBUG] 2017-05-22 18:56:08: 20019     [Thread-11] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-22 18:56:08: 20019     [Thread-11] ( BasicLogger.java,111 ) - CC:
+[DEBUG] 2017-05-22 18:56:08: 20019     [Thread-11] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-22 18:56:08: 20019     [Thread-11] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-22 18:56:08: 20020     [Thread-11] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+[DEBUG] 2017-05-22 18:56:08: 20020     [Thread-11] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170522/20170522185604/
+[FATAL] 2017-05-22 18:56:12: 24530     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 18:58:58: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-22 18:58:58: 37       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-22 18:59:10: 11500     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 13.7 seconds
+[FATAL] 2017-05-22 18:59:22: 24206     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [9856:WinSCP.exe]
+[FATAL] 2017-05-22 18:59:24: 26102     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [9856:WinSCP.exe]
+[DEBUG] 2017-05-22 18:59:24: 26214     [Thread-11] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-22 18:59:24: 26214     [Thread-11] ( BasicLogger.java,111 ) - CC:
+[DEBUG] 2017-05-22 18:59:24: 26215     [Thread-11] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-22 18:59:24: 26215     [Thread-11] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-22 18:59:24: 26215     [Thread-11] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+[DEBUG] 2017-05-22 18:59:24: 26215     [Thread-11] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170522/20170522185921/20170522185922.xlsx
+[FATAL] 2017-05-22 18:59:29: 30468     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 19:01:12: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-22 19:01:12: 18       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-22 19:01:23: 11113     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 11.8 seconds
+[FATAL] 2017-05-22 19:01:29: 17212     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [9160:WinSCP.exe]
+[FATAL] 2017-05-22 19:01:31: 19365     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [9160:WinSCP.exe]
+[DEBUG] 2017-05-22 19:01:31: 19478     [Thread-11] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-22 19:01:31: 19478     [Thread-11] ( BasicLogger.java,111 ) - CC:
+[DEBUG] 2017-05-22 19:01:31: 19478     [Thread-11] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-22 19:01:31: 19478     [Thread-11] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-22 19:01:31: 19479     [Thread-11] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+[DEBUG] 2017-05-22 19:01:31: 19479     [Thread-11] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170522/20170522190127/20170522190128.xlsx
+[FATAL] 2017-05-22 19:01:35: 23708     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 19:02:39: 87873     [Thread-13] ( BasicLogger.java,98 ) - [log] App.open [6412:WinSCP.exe]
+[FATAL] 2017-05-22 19:02:41: 89879     [Thread-13] ( BasicLogger.java,98 ) - [log] App.close: [6412:WinSCP.exe]
+[DEBUG] 2017-05-22 19:02:41: 89890     [Thread-13] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-22 19:02:41: 89890     [Thread-13] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-22 19:02:41: 89892     [Thread-13] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-22 19:02:41: 89892     [Thread-13] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-22 19:02:41: 89892     [Thread-13] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-22 19:02:41: 89893     [Thread-13] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170522/20170522190239/20170522190239.xlsx
+[FATAL] 2017-05-22 19:02:46: 94176     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 19:03:26: 134776     [Thread-15] ( BasicLogger.java,98 ) - [log] App.open [9056:WinSCP.exe]
+[FATAL] 2017-05-22 19:03:28: 136729     [Thread-15] ( BasicLogger.java,98 ) - [log] App.close: [9056:WinSCP.exe]
+[FATAL] 2017-05-22 19:03:33: 141007     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 19:03:56: 164633     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-22 19:26:16: 1504055     [Thread-18] ( BasicLogger.java,98 ) - [log] App.open [4632:WinSCP.exe]
+[FATAL] 2017-05-22 19:26:18: 1506038     [Thread-18] ( BasicLogger.java,98 ) - [log] App.close: [4632:WinSCP.exe]
+[FATAL] 2017-05-22 19:26:22: 1510348     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."

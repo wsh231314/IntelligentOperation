@@ -1,0 +1,3 @@
+[FATAL] 2017-05-11 10:42:10: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-11 10:42:12: 2269     [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-11 10:44:22: 131701     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 144.9 seconds

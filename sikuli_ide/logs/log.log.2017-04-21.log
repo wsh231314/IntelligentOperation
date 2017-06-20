@@ -1,0 +1,229 @@
+[FATAL] 2017-04-21 09:18:50: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 09:18:50: 165      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 09:19:00: 9925     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.5 seconds
+[FATAL] 2017-04-21 09:20:15: 85755     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:20:22: 92752     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:21:34: 164609     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:21:41: 170932     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:21:52: 182526     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:21:58: 187966     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:36:02: 1032414     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:36:23: 1052962     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:41:15: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 09:41:15: 29       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 09:41:25: 10141     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.7 seconds
+[FATAL] 2017-04-21 09:41:49: 33774     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:42:05: 50406     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 09:42:05: 50408     [Thread-12] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 1st arg can't be coerced to String )
+[FATAL] 2017-04-21 09:42:14: 59028     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:42:31: 76533     [Thread-13] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 09:42:31: 76534     [Thread-13] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 1st arg can't be coerced to String )
+[FATAL] 2017-04-21 09:50:12: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 09:50:12: 22       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 09:50:22: 10080     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.6 seconds
+[FATAL] 2017-04-21 09:51:42: 89154     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:51:49: 96620     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 09:51:49: 96620     [Thread-12] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 1st arg can't be coerced to String )
+[FATAL] 2017-04-21 09:53:18: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 09:53:18: 29       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 09:53:29: 10800     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 11.4 seconds
+[FATAL] 2017-04-21 09:53:38: 19921     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:53:56: 38324     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:54:28: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 09:54:28: 25       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 09:54:38: 9914     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.5 seconds
+[FATAL] 2017-04-21 09:54:47: 18359     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:54:47: 18427     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 09:54:47: 18471     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:55:07: 38831     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:56:12: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 09:56:12: 23       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 09:56:21: 9637     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.2 seconds
+[FATAL] 2017-04-21 09:56:29: 17754     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 09:56:29: 17822     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 09:56:29: 17864     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 09:57:05: 53390     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 09:57:05: 53391     [Thread-12] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:07:39: 687703     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:07:39: 687757     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:07:39: 687800     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:07:56: 703901     [Thread-13] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 10:07:56: 703902     [Thread-13] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:08:13: 721823     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:08:13: 721865     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:08:14: 721909     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:08:18: 726416     [Thread-14] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_78\script_78.sikuli ] stopped with error in line 18
+[FATAL] 2017-04-21 10:08:18: 726417     [Thread-14] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:09:22: 790630     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:09:22: 790675     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:09:22: 790716     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:09:34: 802773     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:09:34: 802831     [Thread-16] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_78\script_78.sikuli ] stopped with error in line 18
+[FATAL] 2017-04-21 10:09:34: 802831     [Thread-16] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:09:35: 802920     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:09:35: 802961     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:09:35: 803004     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:09:40: 808264     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:09:40: 808307     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:09:40: 808350     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:09:49: 817194     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:09:49: 817230     [Thread-18] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_78\script_78.sikuli ] stopped with error in line 18
+[FATAL] 2017-04-21 10:09:49: 817230     [Thread-18] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:09:49: 817611     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:09:49: 817657     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:09:49: 817705     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:00: 827947     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:10:00: 827993     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:10:00: 828036     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:05: 832901     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:10:05: 832944     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:10:05: 832986     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:06: 834401     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:09: 837777     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:10:09: 837820     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:10:09: 837864     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:10: 838718     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:14: 841963     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:10:14: 842008     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:10:14: 842050     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:15: 843750     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:25: 853729     [Thread-17] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:32: 860570     [Thread-18] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:10:32: 860613     [Thread-18] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:10:32: 860656     [Thread-18] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:10:35: 863533     [Thread-23] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_78\script_78.sikuli ] stopped with error in line 18
+[FATAL] 2017-04-21 10:10:35: 863534     [Thread-23] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:11:39: 927737     [Thread-19] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:11:39: 927780     [Thread-19] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:11:39: 927838     [Thread-19] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:11:41: 928868     [Thread-24] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_78\script_78.sikuli ] stopped with error in line 18
+[FATAL] 2017-04-21 10:11:41: 928868     [Thread-24] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:11:50: 938401     [Thread-20] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:11:50: 938442     [Thread-20] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:11:50: 938484     [Thread-20] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:11:52: 940534     [Thread-25] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_78\script_78.sikuli ] stopped with error in line 18
+[FATAL] 2017-04-21 10:11:52: 940534     [Thread-25] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:14:41: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 10:14:41: 17       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 10:14:56: 15133     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 15.7 seconds
+[FATAL] 2017-04-21 10:15:10: 28629     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:15:10: 28671     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:15:10: 28713     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:15:10: 28753     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 10:15:10: 28753     [Thread-12] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:15:19: 38083     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:15:19: 38128     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:15:19: 38172     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:15:27: 45435     [Thread-13] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 10:15:27: 45435     [Thread-13] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 2nd arg can't be coerced to int, String )
+[FATAL] 2017-04-21 10:17:27: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 10:17:28: 31       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 10:17:38: 10184     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.8 seconds
+[FATAL] 2017-04-21 10:17:45: 17941     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:17:45: 17991     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:17:46: 18032     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:17:49: 21657     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 18
+[FATAL] 2017-04-21 10:17:49: 21658     [Thread-12] ( BasicLogger.java,98 ) - [error] TypeError ( type(): 1st arg can't be coerced to String )
+[FATAL] 2017-04-21 10:21:49: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 10:21:49: 33       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 10:22:00: 10313     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 11.1 seconds
+[FATAL] 2017-04-21 10:22:05: 15806     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:22:05: 15848     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:22:05: 15889     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:22:14: 24610     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:22:17: 27322     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:22:17: 27366     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:22:17: 27411     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:22:28: 38319     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:22:35: 46173     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:22:35: 46217     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:22:35: 46259     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:22:44: 54767     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:22:44: 54808     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:22:44: 54860     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:22:45: 55862     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:22:45: 55937     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:22:46: 56523     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:22:46: 56565     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:22:46: 56607     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:23:05: 75767     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:23:06: 76353     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:23:06: 76395     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:23:06: 76442     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:23:06: 76450     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:23:06: 77076     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:23:06: 77119     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:23:06: 77185     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:23:09: 79389     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:23:09: 79973     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:23:09: 80015     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:23:09: 80059     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:23:09: 80092     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:23:10: 80685     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:23:10: 80728     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:23:10: 80778     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:23:10: 80789     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:23:11: 81406     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:23:11: 81448     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:23:11: 81500     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:23:17: 87640     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:23:17: 88225     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:23:17: 88268     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:23:18: 88330     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:30:04: 494930     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:30:05: 495515     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:30:05: 495558     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:30:05: 495604     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:30:27: 518178     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:30:28: 518765     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:30:28: 518805     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:30:28: 518845     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:30:36: 526552     [Thread-17] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:31:00: 550492     [Thread-18] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:31:00: 550536     [Thread-18] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:31:00: 550598     [Thread-18] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:31:05: 555817     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:31:06: 556403     [Thread-19] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:31:06: 556447     [Thread-19] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:31:06: 556508     [Thread-19] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:31:17: 567376     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:31:17: 567960     [Thread-20] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:31:17: 568003     [Thread-20] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:31:17: 568057     [Thread-20] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:31:18: 569184     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#SHIFT.#ALT."
+[FATAL] 2017-04-21 10:31:19: 569770     [Thread-21] ( BasicLogger.java,98 ) - [log]  TYPE "o"
+[FATAL] 2017-04-21 10:31:19: 569812     [Thread-21] ( BasicLogger.java,98 ) - [log]  TYPE "#TAB."
+[FATAL] 2017-04-21 10:31:19: 569854     [Thread-21] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:31:30: 580358     [Thread-22] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:34:41: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 10:34:41: 29       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 10:34:51: 10208     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.8 seconds
+[FATAL] 2017-04-21 10:34:59: 17970     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 8
+[FATAL] 2017-04-21 10:34:59: 17970     [Thread-12] ( BasicLogger.java,98 ) - [error] NameError ( name 'isLockOn' is not defined )
+[FATAL] 2017-04-21 10:36:13: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 10:36:13: 20       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 10:36:23: 9977     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.5 seconds
+[FATAL] 2017-04-21 10:36:30: 16427     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ script_78 ] stopped with error in line 8
+[FATAL] 2017-04-21 10:36:30: 16428     [Thread-12] ( BasicLogger.java,98 ) - [error] TypeError ( isLockOn(): expected 1 args; got 0 )
+[FATAL] 2017-04-21 10:37:38: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-21 10:37:38: 30       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-21 10:37:48: 10153     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.8 seconds
+[FATAL] 2017-04-21 10:37:54: 15905     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#CAPS_LOCK."
+[FATAL] 2017-04-21 10:38:05: 27262     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:38:08: 29759     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#CAPS_LOCK."
+[FATAL] 2017-04-21 10:38:15: 37129     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:55:32: 1074196     [Thread-14] ( BasicLogger.java,98 ) - [log]  TYPE "#CAPS_LOCK."
+[FATAL] 2017-04-21 10:55:37: 1078527     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:56:06: 1108339     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "#ALT.#SHIFT."
+[FATAL] 2017-04-21 10:56:11: 1112696     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:56:13: 1115441     [Thread-16] ( BasicLogger.java,98 ) - [log]  TYPE "#ALT.#SHIFT."
+[FATAL] 2017-04-21 10:56:18: 1119781     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:56:40: 1142337     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:57:41: 1203000     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:58:04: 1226196     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:58:16: 1237791     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:58:44: 1266282     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 10:58:55: 1276512     [Thread-22] ( BasicLogger.java,98 ) - [log]  TYPE "#ALT.#SHIFT."
+[FATAL] 2017-04-21 10:58:59: 1280938     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 11:02:20: 1481610     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-21 11:02:37: 1498917     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."

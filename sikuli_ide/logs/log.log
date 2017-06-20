@@ -1,0 +1,139 @@
+[FATAL] 2017-05-29 14:56:58: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 14:56:58: 76       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 14:57:17: 19218     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 19.9 seconds
+[FATAL] 2017-05-29 14:58:27: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 14:58:27: 35       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 14:58:40: 12995     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 13.8 seconds
+[FATAL] 2017-05-29 15:07:30: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 15:07:30: 19       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 15:07:42: 12529     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 13.3 seconds
+[FATAL] 2017-05-29 15:08:25: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 15:08:25: 32       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 15:08:43: 18399     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 19.3 seconds
+[FATAL] 2017-05-29 15:09:54: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 15:09:54: 16       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 15:10:08: 13980     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 14.7 seconds
+[FATAL] 2017-05-29 15:13:24: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 15:13:24: 19       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 15:13:36: 12643     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 13.3 seconds
+[FATAL] 2017-05-29 15:22:21: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 15:22:21: 23       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 15:22:34: 13119     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 14.2 seconds
+[FATAL] 2017-05-29 15:22:54: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 15:22:54: 20       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 15:23:06: 12097     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 12.9 seconds
+[FATAL] 2017-05-29 16:52:56: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-05-29 16:52:56: 15       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-05-29 16:53:08: 12016     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 12.8 seconds
+[FATAL] 2017-05-29 16:53:14: 18430     [Thread-12] ( BasicLogger.java,98 ) - [log] App.open [5696:WinSCP.exe]
+[FATAL] 2017-05-29 16:53:18: 21537     [Thread-12] ( BasicLogger.java,98 ) - [log] App.close: [5696:WinSCP.exe]
+[DEBUG] 2017-05-29 16:53:18: 21768     [Thread-12] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:18: 21768     [Thread-12] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:18: 21768     [Thread-12] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 16:53:18: 21769     [Thread-12] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 16:53:18: 21769     [Thread-12] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 16:53:18: 21769     [Thread-12] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529165312/20170529165313.xlsx
+[FATAL] 2017-05-29 16:53:22: 26140     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-29 16:53:24: 27482     [Thread-13] ( BasicLogger.java,98 ) - [log] App.open [1596:WinSCP.exe]
+[FATAL] 2017-05-29 16:53:26: 29831     [Thread-13] ( BasicLogger.java,98 ) - [log] App.close: [1596:WinSCP.exe]
+[DEBUG] 2017-05-29 16:53:26: 29839     [Thread-13] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:26: 29841     [Thread-13] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:26: 29843     [Thread-13] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 16:53:26: 29844     [Thread-13] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 16:53:26: 29844     [Thread-13] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 16:53:26: 29844     [Thread-13] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529165315/20170529165323.xlsx
+[FATAL] 2017-05-29 16:53:30: 34200     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-29 16:53:37: 40536     [Thread-14] ( BasicLogger.java,98 ) - [log] App.open [10100:WinSCP.exe]
+[FATAL] 2017-05-29 16:53:39: 42961     [Thread-14] ( BasicLogger.java,98 ) - [log] App.close: [10100:WinSCP.exe]
+[DEBUG] 2017-05-29 16:53:39: 42968     [Thread-14] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:39: 42968     [Thread-14] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:39: 42969     [Thread-14] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 16:53:39: 42969     [Thread-14] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 16:53:39: 42969     [Thread-14] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 16:53:39: 42969     [Thread-14] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529165336/20170529165336.xlsx
+[FATAL] 2017-05-29 16:53:43: 47216     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-29 16:53:44: 48029     [Thread-16] ( BasicLogger.java,98 ) - [log] App.open [9096:WinSCP.exe]
+[FATAL] 2017-05-29 16:53:46: 50429     [Thread-16] ( BasicLogger.java,98 ) - [log] App.close: [9096:WinSCP.exe]
+[DEBUG] 2017-05-29 16:53:47: 50436     [Thread-16] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:47: 50436     [Thread-16] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:47: 50436     [Thread-16] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 16:53:47: 50437     [Thread-16] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 16:53:47: 50437     [Thread-16] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 16:53:47: 50437     [Thread-16] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529165337/20170529165344.xlsx
+[FATAL] 2017-05-29 16:53:51: 54738     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-29 16:53:52: 55599     [Thread-15] ( BasicLogger.java,98 ) - [log] App.open [5228:WinSCP.exe]
+[FATAL] 2017-05-29 16:53:54: 58066     [Thread-15] ( BasicLogger.java,98 ) - [log] App.close: [5228:WinSCP.exe]
+[DEBUG] 2017-05-29 16:53:54: 58077     [Thread-15] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:54: 58078     [Thread-15] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 16:53:54: 58078     [Thread-15] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 16:53:54: 58079     [Thread-15] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 16:53:54: 58079     [Thread-15] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 16:53:54: 58079     [Thread-15] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529165337/20170529165351.xlsx
+[FATAL] 2017-05-29 16:53:58: 62292     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-29 17:22:38: 1782062     [Thread-17] ( BasicLogger.java,98 ) - [log] App.open [7564:WinSCP.exe]
+[FATAL] 2017-05-29 17:22:40: 1784396     [Thread-17] ( BasicLogger.java,98 ) - [log] App.close: [7564:WinSCP.exe]
+[DEBUG] 2017-05-29 17:22:40: 1784406     [Thread-17] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 17:22:40: 1784407     [Thread-17] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 17:22:40: 1784407     [Thread-17] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 17:22:40: 1784407     [Thread-17] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 17:22:40: 1784407     [Thread-17] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 17:22:40: 1784407     [Thread-17] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529172238/20170529172238.xlsx
+[FATAL] 2017-05-29 17:22:45: 1788702     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-29 17:22:46: 1789533     [Thread-19] ( BasicLogger.java,98 ) - [log] App.open [5480:WinSCP.exe]
+[FATAL] 2017-05-29 17:22:48: 1791910     [Thread-19] ( BasicLogger.java,98 ) - [log] App.close: [5480:WinSCP.exe]
+[DEBUG] 2017-05-29 17:22:48: 1791922     [Thread-19] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 17:22:48: 1791923     [Thread-19] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 17:22:48: 1791923     [Thread-19] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 17:22:48: 1791923     [Thread-19] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 17:22:48: 1791923     [Thread-19] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 17:22:48: 1791924     [Thread-19] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529172239/20170529172245.xlsx
+[FATAL] 2017-05-29 17:22:52: 1796181     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-29 17:22:53: 1796905     [Thread-18] ( BasicLogger.java,98 ) - [log] App.open [8324:WinSCP.exe]
+[FATAL] 2017-05-29 17:22:55: 1799178     [Thread-18] ( BasicLogger.java,98 ) - [log] App.close: [8324:WinSCP.exe]
+[DEBUG] 2017-05-29 17:22:55: 1799186     [Thread-18] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 17:22:55: 1799186     [Thread-18] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-29 17:22:55: 1799186     [Thread-18] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-29 17:22:55: 1799187     [Thread-18] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-29 17:22:55: 1799187     [Thread-18] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-29 17:22:55: 1799187     [Thread-18] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170529/20170529172238/20170529172253.xlsx
+[FATAL] 2017-05-29 17:23:00: 1803447     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."

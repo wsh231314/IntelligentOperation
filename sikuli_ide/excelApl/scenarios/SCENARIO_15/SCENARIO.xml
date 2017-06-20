@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<steps><step><id>STEP_1</id><page_id>PAGE_74</page_id><field_id>FIELD_1</field_id><operation>openApp</operation><command>'C:/work/worksoft/WinSCP/WinSCP.exe'</command><capture>false</capture><test_exec>false</test_exec></step><step><id>STEP_2</id><page_id>PAGE_74</page_id><field_id>FIELD_1</field_id><operation>closeApp</operation><command>'C:/work/worksoft/WinSCP/WinSCP.exe'</command><capture>false</capture><test_exec>false</test_exec></step></steps>

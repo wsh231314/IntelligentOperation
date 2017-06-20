@@ -1,0 +1,117 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>script_74.sikuli</h2> <a href="script_74.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">try</span>:
+    initEvidence()
+    <span class="kw">import</span> xlrd
+    data = xlrd.open_workbook(<span class="str">'C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_73/20170411/20170411101148/data_20170411101148.xls'</span>)
+    sheet = data.sheets()[<span class="dig">0</span>]
+    intDataStartRow = <span class="dig">0</span>
+    <span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">1</span>):
+        iColumn = <span class="dig">1</span>
+        <span class="skw">click</span>(Pattern(<span class="str">'PAGE_66_FIELD_1.png'</span>).targetOffset(<span class="dig">52</span>,<span class="dig">71</span>))
+        captureNow()
+        <span class="skw">click</span>(<span class="str">'PAGE_66_FIELD_2.png'</span>)
+        captureNow()
+    <span class="kw">import</span> xlrd
+    data = xlrd.open_workbook(<span class="str">'C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_73/20170411/20170411101148/data_20170411101149.xls'</span>)
+    sheet = data.sheets()[<span class="dig">0</span>]
+    intDataStartRow = <span class="dig">4</span>
+    <span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        iColumn = <span class="dig">1</span>
+        <span class="kw">if</span> exists(<span class="str">'PAGE_68_FIELD_1.png'</span>) :
+            strOperationData = sheet.row(intDataStartRow + i)[iColumn + <span class="dig">0</span>].value
+            <span class="skw">type</span>(<span class="str">'PAGE_68_FIELD_1.png'</span>, strOperationData)
+            <span class="skw">click</span>(<span class="str">'PAGE_68_FIELD_7.png'</span>)
+            captureNow()
+        iColumn = iColumn + <span class="dig">1</span>
+        <span class="kw">if</span> <span class="kw">not</span> exists(<span class="str">'PAGE_68_FIELD_8.png'</span>) :
+            captureNow()
+            <span class="kw">if</span> <span class="kw">not</span> exists(<span class="str">'PAGE_68_FIELD_1.png'</span>) :
+                <span class="skw">click</span>(<span class="str">'PAGE_68_FIELD_2.png'</span>)
+                <span class="skw">wait</span>(<span class="str">'PAGE_68_FIELD_1.png'</span>)
+                strOperationData = sheet.row(intDataStartRow + i)[iColumn + <span class="dig">0</span>].value
+                <span class="skw">type</span>(<span class="str">'PAGE_68_FIELD_1.png'</span>, strOperationData)
+                <span class="skw">click</span>(<span class="str">'PAGE_68_FIELD_7.png'</span>)
+                <span class="skw">click</span>(<span class="str">'PAGE_68_FIELD_2.png'</span>)
+                strOperationData = sheet.row(intDataStartRow + i)[iColumn + <span class="dig">1</span>].value
+                <span class="skw">type</span>(<span class="str">'PAGE_68_FIELD_1.png'</span>, strOperationData)
+                <span class="skw">click</span>(<span class="str">'PAGE_68_FIELD_7.png'</span>)
+        iColumn = iColumn + <span class="dig">2</span>
+    <span class="skw">popup</span>(<span class="str">'the end!'</span>)
+<span class="kw">except</span> Exception, ex:
+    <span class="skw">popup</span>(<span class="str">'error!'</span>)
+<span class="kw">finally</span>:
+    endEvidence()
+</pre>
+</body>
+</html>

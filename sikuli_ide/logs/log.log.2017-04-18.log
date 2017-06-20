@@ -1,0 +1,168 @@
+[FATAL] 2017-04-18 10:55:41: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-18 10:55:42: 348      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-18 10:56:05: 23410     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 37.3 seconds
+[FATAL] 2017-04-18 11:08:07: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-18 11:08:08: 238      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-18 11:08:36: 28972     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 40.7 seconds
+[FATAL] 2017-04-18 11:09:51: 103609     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_1.png
+[FATAL] 2017-04-18 11:09:51: 103610     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:09:51: 103610     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_1.png"
+[FATAL] 2017-04-18 11:09:51: 103611     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_2.png
+[FATAL] 2017-04-18 11:09:51: 103611     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:09:51: 103612     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_2.png"
+[FATAL] 2017-04-18 11:09:51: 103612     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_7.png
+[FATAL] 2017-04-18 11:09:51: 103613     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:09:51: 103613     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_7.png"
+[FATAL] 2017-04-18 11:09:51: 103614     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_8.png
+[FATAL] 2017-04-18 11:09:51: 103614     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:09:51: 103615     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_8.png"
+[FATAL] 2017-04-18 11:09:51: 103616     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_9.png
+[FATAL] 2017-04-18 11:09:51: 103618     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:09:51: 103619     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_9.png"
+[FATAL] 2017-04-18 11:09:51: 103620     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_10.png
+[FATAL] 2017-04-18 11:09:51: 103620     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:09:51: 103621     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_10.png"
+[FATAL] 2017-04-18 11:10:02: 114353     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_1.png
+[FATAL] 2017-04-18 11:10:02: 114353     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:10:02: 114354     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_1.png"
+[FATAL] 2017-04-18 11:10:02: 114355     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_2.png
+[FATAL] 2017-04-18 11:10:02: 114355     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:10:02: 114355     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_2.png"
+[FATAL] 2017-04-18 11:10:02: 114356     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_7.png
+[FATAL] 2017-04-18 11:10:02: 114356     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:10:02: 114356     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_7.png"
+[FATAL] 2017-04-18 11:10:02: 114357     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_8.png
+[FATAL] 2017-04-18 11:10:02: 114357     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:10:02: 114357     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_8.png"
+[FATAL] 2017-04-18 11:10:02: 114358     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_9.png
+[FATAL] 2017-04-18 11:10:02: 114358     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:10:02: 114359     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_9.png"
+[FATAL] 2017-04-18 11:10:02: 114360     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/PAGE_68/FIELD_10.png
+[FATAL] 2017-04-18 11:10:02: 114360     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:10:02: 114360     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/PAGE_68/FIELD_10.png"
+[FATAL] 2017-04-18 11:10:02: 114361     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - 
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1954)
+	at org.app.co.jp.dao.PageDao.createByList(PageDao.java:283)
+	at org.app.co.jp.ap.PageDialog$2.actionPerformed(PageDialog.java:310)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6527)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6292)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4883)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4705)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4705)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:746)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:719)
+	at java.awt.EventQueue$4.run(EventQueue.java:717)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:716)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+[FATAL] 2017-04-18 11:10:05: 117939     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - 
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1954)
+	at org.app.co.jp.dao.PageDao.createByList(PageDao.java:283)
+	at org.app.co.jp.ap.PageDialog$2.actionPerformed(PageDialog.java:310)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6527)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6292)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4883)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4705)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4705)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:746)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:719)
+	at java.awt.EventQueue$4.run(EventQueue.java:717)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:716)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+[FATAL] 2017-04-18 11:15:54: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-18 11:15:54: 27       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-18 11:16:04: 9914     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.5 seconds
+[FATAL] 2017-04-18 11:17:03: 68848     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_1.png
+[FATAL] 2017-04-18 11:17:03: 68848     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:03: 68849     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_1.png"
+[FATAL] 2017-04-18 11:17:03: 68849     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_2.png
+[FATAL] 2017-04-18 11:17:03: 68850     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:03: 68850     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_2.png"
+[FATAL] 2017-04-18 11:17:03: 68851     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_7.png
+[FATAL] 2017-04-18 11:17:03: 68851     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:03: 68852     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_7.png"
+[FATAL] 2017-04-18 11:17:03: 68853     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_8.png
+[FATAL] 2017-04-18 11:17:03: 68853     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:03: 68853     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_8.png"
+[FATAL] 2017-04-18 11:17:03: 68854     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_9.png
+[FATAL] 2017-04-18 11:17:03: 68855     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:03: 68857     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_9.png"
+[FATAL] 2017-04-18 11:17:03: 68860     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_10.png
+[FATAL] 2017-04-18 11:17:03: 68860     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:03: 68860     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_10.png"
+[FATAL] 2017-04-18 11:17:30: 95994     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_1.png
+[FATAL] 2017-04-18 11:17:30: 95995     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:30: 95995     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_1.png"
+[FATAL] 2017-04-18 11:17:30: 95996     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_2.png
+[FATAL] 2017-04-18 11:17:30: 95996     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:30: 95997     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_2.png"
+[FATAL] 2017-04-18 11:17:30: 95998     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_7.png
+[FATAL] 2017-04-18 11:17:30: 95998     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:30: 95998     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_7.png"
+[FATAL] 2017-04-18 11:17:30: 95999     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_8.png
+[FATAL] 2017-04-18 11:17:30: 95999     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:30: 96000     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_8.png"
+[FATAL] 2017-04-18 11:17:30: 96001     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/work/FIELD_9.png
+[FATAL] 2017-04-18 11:17:30: 96001     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:30: 96001     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/work/FIELD_9.png"
+[FATAL] 2017-04-18 11:17:30: 96002     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - ./excelApl/pages/PAGE_68/FIELD_10.png
+[FATAL] 2017-04-18 11:17:30: 96003     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - PAGE_68
+[FATAL] 2017-04-18 11:17:30: 96003     [AWT-EventQueue-0] ( BasicLogger.java,74 ) - "./excelApl/pages/PAGE_68/FIELD_10.png"
+[FATAL] 2017-04-18 12:49:08: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-18 12:49:08: 196      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-18 12:49:29: 21187     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 32.7 seconds

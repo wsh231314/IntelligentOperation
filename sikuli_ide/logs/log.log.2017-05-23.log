@@ -1,0 +1,123 @@
+[FATAL] 2017-05-23 08:05:05: 47033020     [Thread-19] ( BasicLogger.java,74 ) - 
+org.app.co.jp.com.UserException: The operation definition not exists. please set it again!
+	at org.app.co.jp.util.AutoOperationDataUtil.createDataByOperationId(AutoOperationDataUtil.java:54)
+	at org.app.co.jp.util.AutoOperationDataUtil.createOperationData(AutoOperationDataUtil.java:34)
+	at org.app.co.jp.util.Utils.analysisCommand(Utils.java:795)
+	at org.app.co.jp.util.Utils.addOuterDealPython(Utils.java:539)
+	at org.sikuli.scriptrunner.JythonScriptRunner.runPython(JythonScriptRunner.java:204)
+	at org.sikuli.scriptrunner.JythonScriptRunner.runScript(JythonScriptRunner.java:178)
+	at org.app.co.jp.util.RunHelp$SubRun.run(RunHelp.java:88)
+	at java.lang.Thread.run(Thread.java:745)
+
+[FATAL] 2017-05-23 08:05:12: 47040346     [Thread-20] ( BasicLogger.java,98 ) - [log] App.open [6768:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:14: 47042738     [Thread-20] ( BasicLogger.java,98 ) - [log] App.close: [6768:WinSCP.exe]
+[DEBUG] 2017-05-23 08:05:14: 47042752     [Thread-20] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:14: 47042753     [Thread-20] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:14: 47042753     [Thread-20] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:14: 47042753     [Thread-20] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:14: 47042753     [Thread-20] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:14: 47042754     [Thread-20] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080511/20170523080512.xlsx
+[FATAL] 2017-05-23 08:05:19: 47047081     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-23 08:05:23: 47050970     [Thread-21] ( BasicLogger.java,98 ) - [log] App.open [6212:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:24: 47052310     [Thread-22] ( BasicLogger.java,98 ) - [log] App.open [10452:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:26: 47053954     [Thread-21] ( BasicLogger.java,98 ) - [log] App.close: [6212:WinSCP.exe]
+[DEBUG] 2017-05-23 08:05:26: 47053964     [Thread-21] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:26: 47053965     [Thread-21] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:26: 47053965     [Thread-21] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:26: 47053966     [Thread-21] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:26: 47053966     [Thread-21] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:26: 47053967     [Thread-21] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080523/20170523080524.xlsx
+[FATAL] 2017-05-23 08:05:27: 47054982     [Thread-22] ( BasicLogger.java,98 ) - [error] App.close [-1:WinSCP.exe (WinSCP)] C:/work/worksoft/WinSCP/WinSCP.exe did not work
+[DEBUG] 2017-05-23 08:05:27: 47054988     [Thread-22] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:27: 47054988     [Thread-22] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:27: 47054989     [Thread-22] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:27: 47054989     [Thread-22] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:27: 47054989     [Thread-22] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:27: 47054989     [Thread-22] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080523/20170523080524.xlsx
+[FATAL] 2017-05-23 08:05:30: 47058202     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-23 08:05:31: 47059224     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-23 08:05:34: 47062789     [Thread-23] ( BasicLogger.java,98 ) - [log] App.open [3188:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:36: 47064673     [Thread-24] ( BasicLogger.java,98 ) - [log] App.open [10332:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:37: 47065191     [Thread-23] ( BasicLogger.java,98 ) - [log] App.close: [10452:WinSCP.exe]
+[DEBUG] 2017-05-23 08:05:37: 47065218     [Thread-23] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:37: 47065218     [Thread-23] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:37: 47065219     [Thread-23] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:37: 47065219     [Thread-23] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:37: 47065219     [Thread-23] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:37: 47065219     [Thread-23] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080536/20170523080536.xlsx
+[FATAL] 2017-05-23 08:05:39: 47067403     [Thread-24] ( BasicLogger.java,98 ) - [error] App.close [-1:WinSCP.exe (WinSCP)] C:/work/worksoft/WinSCP/WinSCP.exe did not work
+[DEBUG] 2017-05-23 08:05:39: 47067408     [Thread-24] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:39: 47067408     [Thread-24] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:39: 47067409     [Thread-24] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:39: 47067409     [Thread-24] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:39: 47067409     [Thread-24] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:39: 47067409     [Thread-24] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080536/20170523080536.xlsx
+[FATAL] 2017-05-23 08:05:41: 47069436     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-23 08:05:43: 47071779     [Thread-10] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-23 08:05:53: 47081543     [Thread-25] ( BasicLogger.java,98 ) - [log] App.open [5996:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:54: 47082441     [Thread-26] ( BasicLogger.java,98 ) - [log] App.open [9020:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:55: 47083470     [Thread-27] ( BasicLogger.java,98 ) - [log] App.open [7592:WinSCP.exe]
+[FATAL] 2017-05-23 08:05:58: 47086443     [Thread-25] ( BasicLogger.java,98 ) - [log] App.close: [5996:WinSCP.exe]
+[DEBUG] 2017-05-23 08:05:58: 47086453     [Thread-25] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:58: 47086453     [Thread-25] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:58: 47086454     [Thread-25] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:58: 47086454     [Thread-25] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:58: 47086454     [Thread-25] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:58: 47086454     [Thread-25] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080554/20170523080555.xlsx
+[FATAL] 2017-05-23 08:05:58: 47086847     [Thread-26] ( BasicLogger.java,98 ) - [log] App.close: [9020:WinSCP.exe]
+[DEBUG] 2017-05-23 08:05:58: 47086852     [Thread-26] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:58: 47086853     [Thread-26] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:58: 47086853     [Thread-26] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:58: 47086853     [Thread-26] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:58: 47086853     [Thread-26] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:58: 47086854     [Thread-26] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080554/20170523080555.xlsx
+[FATAL] 2017-05-23 08:05:59: 47087283     [Thread-27] ( BasicLogger.java,98 ) - [error] App.close [-1:WinSCP.exe (WinSCP)] C:/work/worksoft/WinSCP/WinSCP.exe did not work
+[DEBUG] 2017-05-23 08:05:59: 47087288     [Thread-27] ( BasicLogger.java,111 ) - TO:shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:59: 47087289     [Thread-27] ( BasicLogger.java,111 ) - CC:shawn.shaohua.wang@accenture.com;shawn.shaohua.wang@accenture.com
+[DEBUG] 2017-05-23 08:05:59: 47087289     [Thread-27] ( BasicLogger.java,111 ) - BCC:
+[DEBUG] 2017-05-23 08:05:59: 47087289     [Thread-27] ( BasicLogger.java,111 ) - SUBJECT:The Operation is successed!
+[DEBUG] 2017-05-23 08:05:59: 47087289     [Thread-27] ( BasicLogger.java,111 ) - CONTENT:The operation is done.
+please check the attachment to confirm the result.2123124
+113123
+123123
+123123
+123123123
+[DEBUG] 2017-05-23 08:05:59: 47087290     [Thread-27] ( BasicLogger.java,111 ) - Attachment:C:/Users/shawn.shaohua.wang/git/autoScreen/sikuli_ide/excelApl/evidences/scripts/script_76/20170523/20170523080554/20170523080555.xlsx
+[FATAL] 2017-05-23 08:06:02: 47090703     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-23 08:06:03: 47091093     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-05-23 08:06:03: 47091756     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."

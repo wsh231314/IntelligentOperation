@@ -1,0 +1,139 @@
+[FATAL] 2017-04-19 10:21:47: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 10:21:47: 286      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 10:22:08: 21566     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 38.0 seconds
+[FATAL] 2017-04-19 10:22:47: 60435     [Thread-12] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli ] stopped with error in line 11 at column 25
+[FATAL] 2017-04-19 10:22:47: 60436     [Thread-12] ( BasicLogger.java,98 ) - [error] SyntaxError ( "no viable alternative at input 'wait'",  )
+[FATAL] 2017-04-19 10:25:08: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 10:25:08: 23       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 10:25:18: 10119     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.7 seconds
+[FATAL] 2017-04-19 10:25:23: 15754     [Thread-11] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli ] stopped with error in line 11 at column 25
+[FATAL] 2017-04-19 10:25:23: 15755     [Thread-11] ( BasicLogger.java,98 ) - [error] SyntaxError ( "no viable alternative at input 'sleep'",  )
+[FATAL] 2017-04-19 10:26:27: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 10:26:27: 45       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 10:26:37: 10088     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.6 seconds
+[FATAL] 2017-04-19 10:26:46: 19004     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [8420:WinSCP.exe]
+[FATAL] 2017-04-19 10:26:48: 20928     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [5992:WinSCP.exe]
+[FATAL] 2017-04-19 10:26:58: 30898     [Thread-12] ( BasicLogger.java,98 ) - [log] App.open [8356:WinSCP.exe]
+[FATAL] 2017-04-19 10:27:00: 32320     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 10:27:00: 32619     [Thread-12] ( BasicLogger.java,98 ) - [log] App.close: [8420:WinSCP.exe]
+[FATAL] 2017-04-19 10:27:24: 56222     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 10:27:38: 70213     [Thread-13] ( BasicLogger.java,98 ) - [log] App.open [9076:WinSCP.exe]
+[FATAL] 2017-04-19 10:27:39: 71670     [Thread-13] ( BasicLogger.java,98 ) - [log] App.close: [8356:WinSCP.exe]
+[FATAL] 2017-04-19 10:27:56: 88289     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 11:06:43: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 11:06:43: 24       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 11:07:01: 17937     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 18.5 seconds
+[FATAL] 2017-04-19 11:21:51: 908106     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [7864:WinSCP.exe]
+[FATAL] 2017-04-19 11:21:53: 910004     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [7864:WinSCP.exe]
+[FATAL] 2017-04-19 11:21:53: 910005     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 11:22:04: 921231     [Thread-12] ( BasicLogger.java,98 ) - [log] App.open [7108:WinSCP.exe]
+[FATAL] 2017-04-19 11:22:06: 922908     [Thread-12] ( BasicLogger.java,98 ) - [log] App.close: [7108:WinSCP.exe]
+[FATAL] 2017-04-19 11:22:06: 922908     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 11:22:27: 1        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 11:22:27: 23       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 11:22:37: 10040     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.6 seconds
+[FATAL] 2017-04-19 11:22:47: 20008     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [8024:WinSCP.exe]
+[FATAL] 2017-04-19 11:22:49: 21712     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [8024:WinSCP.exe]
+[FATAL] 2017-04-19 11:22:49: 21713     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 11:22:57: 29565     [Thread-12] ( BasicLogger.java,98 ) - [log] App.open [4636:WinSCP.exe]
+[FATAL] 2017-04-19 11:22:58: 31257     [Thread-12] ( BasicLogger.java,98 ) - [log] App.close: [4636:WinSCP.exe]
+[FATAL] 2017-04-19 11:22:58: 31257     [Thread-12] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 11:23:25: 58340     [Thread-13] ( BasicLogger.java,98 ) - [log] App.open [7440:WinSCP.exe]
+[FATAL] 2017-04-19 11:23:27: 59843     [Thread-13] ( BasicLogger.java,98 ) - [log] App.close: [7440:WinSCP.exe]
+[FATAL] 2017-04-19 11:23:27: 59844     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 11:24:26: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 11:24:26: 20       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 11:24:36: 9999     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.6 seconds
+[FATAL] 2017-04-19 11:24:41: 14953     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [7816:WinSCP.exe]
+[FATAL] 2017-04-19 11:24:43: 16793     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [7816:WinSCP.exe]
+[FATAL] 2017-04-19 11:24:43: 16794     [Thread-11] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 12:49:44: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 12:49:44: 99       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 12:50:04: 20366     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 22.2 seconds
+[FATAL] 2017-04-19 12:50:11: 26967     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [8872:WinSCP.exe]
+[FATAL] 2017-04-19 12:50:14: 30423     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [-1:WinSCP.exe]
+[FATAL] 2017-04-19 12:51:05: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 12:51:05: 20       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 12:51:16: 10870     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 11.4 seconds
+[FATAL] 2017-04-19 12:51:26: 20475     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [5148:WinSCP.exe]
+[FATAL] 2017-04-19 12:51:28: 22803     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [5148:WinSCP.exe]
+[FATAL] 2017-04-19 12:51:33: 27812     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 12:56:19: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 12:56:19: 24       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 12:56:29: 10081     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.6 seconds
+[FATAL] 2017-04-19 12:56:34: 15670     [Thread-11] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli ] stopped with error in line 21 at column 6
+[FATAL] 2017-04-19 12:56:34: 15671     [Thread-11] ( BasicLogger.java,98 ) - [error] SyntaxError ( "no viable alternative at input 'information'",  )
+[FATAL] 2017-04-19 12:57:14: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 12:57:14: 25       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 12:57:24: 10065     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.7 seconds
+[FATAL] 2017-04-19 12:57:30: 15616     [Thread-11] ( BasicLogger.java,98 ) - [error] script [ C:\Users\shawn.shaohua.wang\git\autoScreen\sikuli_ide\excelApl\scripts\script_76\script_76.sikuli ] stopped with error in line 21 at column 6
+[FATAL] 2017-04-19 12:57:30: 15617     [Thread-11] ( BasicLogger.java,98 ) - [error] SyntaxError ( "no viable alternative at input 'information'",  )
+[FATAL] 2017-04-19 12:58:31: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 12:58:31: 22       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 12:58:41: 9794     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 10.4 seconds
+[FATAL] 2017-04-19 12:58:46: 14521     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [8292:WinSCP.exe]
+[FATAL] 2017-04-19 12:58:48: 16329     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [8292:WinSCP.exe]
+[FATAL] 2017-04-19 12:58:52: 20753     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 13:01:03: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 13:01:03: 31       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 13:01:13: 10484     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 11.1 seconds
+[FATAL] 2017-04-19 13:01:19: 16019     [Thread-11] ( BasicLogger.java,98 ) - [log] App.open [8264:WinSCP.exe]
+[FATAL] 2017-04-19 13:01:20: 17743     [Thread-11] ( BasicLogger.java,98 ) - [log] App.close: [8264:WinSCP.exe]
+[FATAL] 2017-04-19 13:01:25: 22046     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 13:04:06: 183572     [Thread-12] ( BasicLogger.java,98 ) - [log] App.open [4656:WinSCP.exe]
+[FATAL] 2017-04-19 13:04:08: 185217     [Thread-12] ( BasicLogger.java,98 ) - [log] App.close: [4656:WinSCP.exe]
+[FATAL] 2017-04-19 13:04:12: 189511     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 13:04:25: 202130     [Thread-13] ( BasicLogger.java,98 ) - [log] App.open [1628:WinSCP.exe]
+[FATAL] 2017-04-19 13:04:26: 203705     [Thread-13] ( BasicLogger.java,98 ) - [log] App.close: [1628:WinSCP.exe]
+[FATAL] 2017-04-19 13:04:31: 207997     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:34:48: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 18:34:48: 192      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 18:35:08: 19781     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 30.9 seconds
+[FATAL] 2017-04-19 18:38:00: 191829     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:39:16: 267848     [Thread-13] ( BasicLogger.java,98 ) - [error] script [ script_77 ] stopped with error in line 10 at column 17
+[FATAL] 2017-04-19 18:39:16: 267849     [Thread-13] ( BasicLogger.java,98 ) - [error] SyntaxError ( "no viable alternative at input 'Screen'",  )
+[FATAL] 2017-04-19 18:40:09: 321408     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:40:53: 365112     [Thread-16] ( BasicLogger.java,98 ) - [error] text: text recognition is currently switched off
+[FATAL] 2017-04-19 18:41:01: 373182     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:41:09: 381234     [Thread-17] ( BasicLogger.java,98 ) - [error] text: text recognition is currently switched off
+[FATAL] 2017-04-19 18:41:15: 387365     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:41:39: 410783     [Thread-18] ( BasicLogger.java,98 ) - [error] text: text recognition is currently switched off
+[FATAL] 2017-04-19 18:41:45: 417217     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:42:58: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 18:42:58: 23       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 18:43:12: 13698     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 14.3 seconds
+[FATAL] 2017-04-19 18:43:53: 54541     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:46:42: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 18:46:42: 55       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 18:46:53: 10386     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 11.6 seconds
+[FATAL] 2017-04-19 18:47:33: 50529     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:48:05: 82835     [Thread-14] ( BasicLogger.java,98 ) - [error] text: text recognition is currently switched off
+[FATAL] 2017-04-19 18:48:11: 88338     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:48:24: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 18:48:24: 23       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 18:48:38: 14641     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 15.3 seconds
+[FATAL] 2017-04-19 18:49:18: 54092     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:50:10: 106561     [Thread-14] ( BasicLogger.java,98 ) - [error] text: text recognition is currently switched off
+[FATAL] 2017-04-19 18:50:16: 112312     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:51:32: 187927     [Thread-16] ( BasicLogger.java,98 ) - [error] text: text recognition is currently switched off
+[FATAL] 2017-04-19 18:51:38: 193706     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 18:52:15: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 18:52:15: 24       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 18:52:28: 12607     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 13.2 seconds
+[FATAL] 2017-04-19 18:52:53: 38117     [Thread-12] ( BasicLogger.java,98 ) - [error] TextRecognizer: init: export tessdata not possible - run setup with option 3
+[FATAL] 2017-04-19 18:52:53: 38118     [Thread-12] ( BasicLogger.java,98 ) - [error] TextRecognizer not working: tessdata stuff not available at:
+C:\Users\shawn.shaohua.wang\AppData\Roaming\Sikulix\SikulixTesseract\tessdata
+[FATAL] 2017-04-19 18:54:57: 162061     [Thread-12] ( BasicLogger.java,98 ) - [error] text: text recognition is now switched off
+[FATAL] 2017-04-19 18:55:03: 168103     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:06:56: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-19 19:06:56: 65       [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-19 19:07:13: 17714     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 26.0 seconds
+[FATAL] 2017-04-19 19:07:42: 46039     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:08:08: 72131     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:08:43: 107946     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:09:48: 172806     [Thread-4] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:09:56: 180796     [Thread-5] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:10:47: 231215     [Thread-6] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:11:09: 253756     [Thread-7] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:12:08: 312751     [Thread-8] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-19 19:12:18: 322683     [Thread-9] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."

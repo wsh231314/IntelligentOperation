@@ -1,0 +1,8 @@
+[FATAL] 2017-04-20 18:01:36: 0        [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Capture Hotkey: CTRL+SHIFT 2 (50, 3)
+[FATAL] 2017-04-20 18:01:36: 141      [main] ( BasicLogger.java,98 ) - [info] HotkeyManager: add Abort Hotkey: ALT+SHIFT C (67, 9)
+[FATAL] 2017-04-20 18:01:56: 19913     [MainThread] ( BasicLogger.java,98 ) - [info] IDE startup: 20.6 seconds
+[FATAL] 2017-04-20 18:03:48: 132426     [Thread-13] ( BasicLogger.java,98 ) - [log]  TYPE "a"
+[FATAL] 2017-04-20 18:03:53: 136855     [Thread-1] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-20 18:05:19: 223472     [Thread-2] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
+[FATAL] 2017-04-20 18:06:00: 264197     [Thread-15] ( BasicLogger.java,98 ) - [log]  TYPE "a"
+[FATAL] 2017-04-20 18:06:04: 268549     [Thread-3] ( BasicLogger.java,98 ) - [log]  TYPE "#ENTER."
