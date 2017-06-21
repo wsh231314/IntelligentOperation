@@ -35,4 +35,14 @@ public class CommonConstant {
 	public static final String SORT_DOWN = "↓";
 	
 	public static int DEAL_STATUS = 0;
+	
+
+	
+	public static final String YEAR = "年";
+	public static final String MONTH = "月";
+	public static final String DAY = "日";
+	public static final String HOUR = "時";
+	public static final String MINUTE = "分";
+	public static final String SECOND = "秒";
+	public static final String WEEK[] = {"日", "月", "火", "水", "木", "金", "土"};
 }
