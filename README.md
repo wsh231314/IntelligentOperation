@@ -20,3 +20,8 @@ Project configuration is not up-to-date with pom.xml. Select: Maven->Update Proj
 * 右键工程->Maven->Update Project...
 ![image](https://github.com/yueheng-li/autoScreen/blob/master/images/maven_update_project.PNG)
 
+### eclipse debug 启动
+IntelligentOperation1\sikuli_ide.java Run Java Application
+
+
+
