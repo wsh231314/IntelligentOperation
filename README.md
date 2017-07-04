@@ -23,5 +23,10 @@ Project configuration is not up-to-date with pom.xml. Select: Maven->Update Proj
 ### eclipse debug 启动
 IntelligentOperation1\sikuli_ide.java Run Java Application
 
+### sikuli start
+* mvn package assembly:single
+* 生成之后的jar包的名称，需要修改成sikulix.jar，否则会因为设置的路径问题，不能正常启动。
+* java -jar sikulix.jar命令启动，sikuli画面。
+
 
 
