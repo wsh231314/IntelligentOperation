@@ -87,7 +87,7 @@ public class ScenarioDialog extends JDialog {
 		setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 		addWindowListener(new WindowAdapter() {
 			@Override
-			public void windowClosed(WindowEvent e) {
+			public void windowClosing(WindowEvent e) {
 				setVisible(false);
 				_parent.searchDetailList();
 				Utils.removeWindow(ScenarioDialog.this);

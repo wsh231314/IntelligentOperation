@@ -55,7 +55,7 @@ public class ScenarioListDialog extends JDialog {
 		addWindowListener(new WindowAdapter() {
 			@SuppressWarnings("deprecation")
 			@Override
-			public void windowClosed(WindowEvent e) {
+			public void windowClosing(WindowEvent e) {
 				hide();
 				Utils.clearWindow();
 				SikuliIDE.getMain().setVisible(true);

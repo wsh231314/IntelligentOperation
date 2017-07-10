@@ -65,7 +65,7 @@ public class OperationInfoListDialog extends JDialog {
 		setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 		addWindowListener(new WindowAdapter() {
 			@Override
-			public void windowClosed(WindowEvent e) {
+			public void windowClosing(WindowEvent e) {
 				setVisible(false);
 				Utils.removeWindow(OperationInfoListDialog.this);
 				_parent.setVisible(true);

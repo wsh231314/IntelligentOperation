@@ -52,14 +52,14 @@ public class PageListDialog extends JDialog {
 		super();
 		
 		setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
-		addWindowListener(new WindowAdapter() {
-			@Override
-			public void windowClosed(WindowEvent e) {
+		this.addWindowListener(new WindowAdapter() {
+	        @Override
+	        public void windowClosing(WindowEvent e) {
 				setVisible(false);
 				Utils.clearWindow();
 				SikuliIDE.getMain().setVisible(true);
-			}
-		});
+	        }
+	    });
 		try {
 			initialize();
 		} catch(Exception e) {
