@@ -122,7 +122,7 @@ public class OperationInfoListDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new java.awt.Dimension(800,600));
+        this.setSize(new Dimension(830, 600));
         this.setContentPane(this.getJPanel());
         ArrayList<String> title = new ArrayList<String>();
         title.add("No");
@@ -164,12 +164,12 @@ public class OperationInfoListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleLength = new JLabel();
-			titleLength.setBounds(new java.awt.Rectangle(728,65,45,20));
+			titleLength.setBounds(new Rectangle(728, 63, 75, 20));
 			titleLength.setHorizontalAlignment(SwingConstants.CENTER);
 			titleLength.setText("Length");
 			titleLength.setBackground(new Color(255, 204, 204));
 			titleRadom = new JLabel();
-			titleRadom.setBounds(new java.awt.Rectangle(667,65,60,20));
+			titleRadom.setBounds(new Rectangle(667, 63, 60, 20));
 			titleRadom.setHorizontalAlignment(SwingConstants.CENTER);
 			titleRadom.setText("Radom");
 			titleRadom.setBackground(new Color(255, 204, 204));
@@ -193,11 +193,11 @@ public class OperationInfoListDialog extends JDialog {
 			dataId.setBounds(new java.awt.Rectangle(10,29,90,20));
 			dataId.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			titleFieldName = new JLabel();
-			titleFieldName.setBounds(new java.awt.Rectangle(214,65,130,20));
+			titleFieldName.setBounds(new Rectangle(214, 63, 130, 20));
 			titleFieldName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleFieldName.setText("Field Name");
 			titlePattern = new JLabel();
-			titlePattern.setBounds(new java.awt.Rectangle(576,65,90,20));
+			titlePattern.setBounds(new Rectangle(576, 63, 90, 20));
 			titlePattern.setHorizontalAlignment(SwingConstants.CENTER);
 			titlePattern.setText("Pattern");
 			titlePattern.setBackground(new Color(255, 204, 204));
@@ -206,16 +206,16 @@ public class OperationInfoListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titleFixValue = new JLabel();
-			titleFixValue.setBounds(new java.awt.Rectangle(345,65,230,20));
+			titleFixValue.setBounds(new Rectangle(345, 63, 230, 20));
 			titleFixValue.setHorizontalAlignment(SwingConstants.CENTER);
 			titleFixValue.setBackground(new Color(255,204,204));
 			titleFixValue.setText("Fixed Value");
 			titlePageName = new JLabel();
-			titlePageName.setBounds(new java.awt.Rectangle(63,65,150,20));
+			titlePageName.setBounds(new Rectangle(63, 63, 150, 20));
 			titlePageName.setHorizontalAlignment(SwingConstants.CENTER);
 			titlePageName.setText("Column");
 			titleNo = new JLabel();
-			titleNo.setBounds(new java.awt.Rectangle(10,65,50,20));
+			titleNo.setBounds(new Rectangle(10, 63, 50, 20));
 			titleNo.setHorizontalAlignment(SwingConstants.CENTER);
 			titleNo.setText("No");
 			jLabel = new JLabel();
@@ -258,7 +258,7 @@ public class OperationInfoListDialog extends JDialog {
 			detailRadom.setBounds(new java.awt.Rectangle(658,0,60,20));
 			detailRadom.setText("");
 			detailLength = new JLabel();
-			detailLength.setBounds(new java.awt.Rectangle(719,0,45,20));
+			detailLength.setBounds(new Rectangle(719, 0, 75, 20));
 			detailLength.setText("");
 			detailPattern = new JLabel();
 			detailPattern.setBounds(new java.awt.Rectangle(567,0,90,20));
@@ -276,7 +276,7 @@ public class OperationInfoListDialog extends JDialog {
 			detailNo.setBounds(new java.awt.Rectangle(3,0,50,20));
 			detailNo.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new java.awt.Rectangle(10,85,770,399));
+			excelSheet.setBounds(new Rectangle(10, 85, 800, 399));
 			excelSheet.setLayout(null);
 			excelSheet.add(detailNo, null);
 			excelSheet.add(detailPageName, null);
@@ -332,7 +332,7 @@ public class OperationInfoListDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new java.awt.Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(11,491));
 		}
 		return preButton;
@@ -348,7 +348,7 @@ public class OperationInfoListDialog extends JDialog {
 			afterButton = new JButton();
 			afterButton.setLocation(new java.awt.Point(690,491));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new java.awt.Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}

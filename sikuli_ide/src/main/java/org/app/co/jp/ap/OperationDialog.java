@@ -103,7 +103,7 @@ public class OperationDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800,600));
+        this.setSize(new Dimension(850, 600));
         this.setContentPane(getJPanel());
 
         List<String> title = new ArrayList<String>();
@@ -153,7 +153,7 @@ public class OperationDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new Rectangle(580, 135, 200, 20));
+			titleDeal.setBounds(new Rectangle(580, 133, 245, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -162,25 +162,25 @@ public class OperationDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("");
 			titleRecordNum = new JLabel();
-			titleRecordNum.setBounds(new Rectangle(510, 135, 70, 20));
+			titleRecordNum.setBounds(new Rectangle(500, 133, 80, 20));
 			titleRecordNum.setHorizontalAlignment(SwingConstants.CENTER);
 			titleRecordNum.setBackground(new Color(255,204,204));
 			titleRecordNum.setText("Rec num");
 			titleDataComment = new JLabel();
-			titleDataComment.setBounds(new Rectangle(100, 135, 410, 20));
+			titleDataComment.setBounds(new Rectangle(100, 133, 400, 20));
 			titleDataComment.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDataComment.setBackground(new Color(255,204,204));
 			titleDataComment.setText("Data Comment");
 			titleDataId = new JLabel();
-			titleDataId.setBounds(new Rectangle(10, 135, 90, 20));
+			titleDataId.setBounds(new Rectangle(10, 133, 90, 20));
 			titleDataId.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDataId.setBackground(new Color(255,160,204));
 			titleDataId.setText("Data ID");
 			lblOperationName = new JLabel();
-			lblOperationName.setBounds(new Rectangle(10, 40, 120, 20));
+			lblOperationName.setBounds(new Rectangle(10, 40, 140, 20));
 			lblOperationName.setText("Operation Name");
 			jLabel = new JLabel();
-			jLabel.setBounds(new java.awt.Rectangle(10,10,500,24));
+			jLabel.setBounds(new Rectangle(10, 10, 600, 24));
 			jLabel.setText("Create the definitions which used to create data in this Operation");
 			jPanel = new JPanel();
 			jPanel.setLayout(null);
@@ -208,19 +208,19 @@ public class OperationDialog extends JDialog {
 			txtScenarioId = new JTextField();
 			txtScenarioId.setEditable(false);
 			txtScenarioId.setBounds(new Rectangle(140, 40, 462, 20));
-			txtScenarioId.setBounds(140, 90, 100, 20);
+			txtScenarioId.setBounds(160, 90, 100, 20);
 			jPanel.add(txtScenarioId);
 			
 			JLabel lblScenarioName = new JLabel();
 			lblScenarioName.setText("Scenario Name");
 			lblScenarioName.setBounds(new Rectangle(10, 40, 120, 20));
-			lblScenarioName.setBounds(270, 90, 120, 20);
+			lblScenarioName.setBounds(270, 90, 140, 20);
 			jPanel.add(lblScenarioName);
 			
 			txtScenarioName = new JTextField();
 			txtScenarioName.setEditable(false);
 			txtScenarioName.setBounds(new Rectangle(140, 40, 462, 20));
-			txtScenarioName.setBounds(400, 90, 200, 20);
+			txtScenarioName.setBounds(420, 90, 200, 20);
 			jPanel.add(txtScenarioName);
 			
 			JButton btnExcel = new JButton("Excel Format");
@@ -253,7 +253,7 @@ public class OperationDialog extends JDialog {
 					}
 				}
 			});
-			btnExcel.setBounds(110, 520, 130, 30);
+			btnExcel.setBounds(140, 520, 150, 30);
 			jPanel.add(btnExcel);
 		}
 		return jPanel;
@@ -267,18 +267,18 @@ public class OperationDialog extends JDialog {
 	private JPanel getDetailSheet() {
 		if (detailSheet == null) {
 			recordNumInit = new JLabel();
-			recordNumInit.setBounds(new java.awt.Rectangle(497,0,70,20));
+			recordNumInit.setBounds(new Rectangle(490, 0, 80, 20));
 			recordNumInit.setText("");
 			recordNumInit.setBackground(new Color(255, 204, 204));
 			dataCommentInit = new JLabel();
-			dataCommentInit.setBounds(new Rectangle(90, 0, 407, 20));
+			dataCommentInit.setBounds(new Rectangle(90, 0, 400, 20));
 			dataCommentInit.setText("JLabel");
 			dataIdInit = new JLabel();
 			dataIdInit.setHorizontalAlignment(SwingConstants.CENTER);
 			dataIdInit.setBounds(new java.awt.Rectangle(3,0,87,20));
 			dataIdInit.setText("JLabel");
 			detailSheet = new JPanel();
-			detailSheet.setBounds(new Rectangle(10, 155, 770, 300));
+			detailSheet.setBounds(new Rectangle(10, 155, 820, 300));
 			detailSheet.setLayout(null);
 			detailSheet.add(dataIdInit, null);
 			detailSheet.add(dataCommentInit, null);
@@ -299,7 +299,7 @@ public class OperationDialog extends JDialog {
 		if (btnConfirm == null) {
 			btnConfirm = new JButton();
 			btnConfirm.setText("Confirm");
-			btnConfirm.setSize(new Dimension(90,30));
+			btnConfirm.setSize(new Dimension(120, 30));
 			btnConfirm.setLocation(new java.awt.Point(10,520));
 			btnConfirm.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings({ "unchecked" })
@@ -359,7 +359,7 @@ public class OperationDialog extends JDialog {
 			btnClose = new JButton();
 			btnClose.setText("Close");
 			btnClose.setSize(new Dimension(90,30));
-			btnClose.setLocation(new java.awt.Point(690,520));
+			btnClose.setLocation(new Point(710, 520));
 			btnClose.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					setVisible(false);
@@ -392,7 +392,7 @@ public class OperationDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(10,480));
 		}
 		return preButton;
@@ -406,9 +406,9 @@ public class OperationDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(690,480));
+			afterButton.setLocation(new Point(710, 480));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}
@@ -421,7 +421,7 @@ public class OperationDialog extends JDialog {
 	private JTextField getSearchPatternName() {
 		if (txtOperationName == null) {
 			txtOperationName = new JTextField();
-			txtOperationName.setBounds(new Rectangle(140, 40, 462, 20));
+			txtOperationName.setBounds(new Rectangle(160, 40, 462, 20));
 		}
 		return txtOperationName;
 	}
@@ -434,9 +434,9 @@ public class OperationDialog extends JDialog {
 	private JButton getBtnDetailInit() {
 		if (btnDetailInit == null) {
 			btnDetailInit = new JButton();
-			btnDetailInit.setBounds(new java.awt.Rectangle(567,0,70,20));
+			btnDetailInit.setBounds(new Rectangle(567, 0, 95, 20));
 			btnDetailInit.setText("Detail");
-			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDetailInit.setPreferredSize(new Dimension(70, 30));
 			btnDetailInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("unchecked")
@@ -457,6 +457,10 @@ public class OperationDialog extends JDialog {
 					Map<String, Object> valueMap = (Map<String, Object>)grid.getValueList().get(dateRow);
 					// 
 					OperationScenarioDataDialog dialog = new OperationScenarioDataDialog(OperationDialog.this, strDataId, strDataComment, CommonConstant.MODE_UPDATE, txtScenarioId.getText().trim(), txtScenarioName.getText().trim());
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					String dealFlg = (String)valueMap.get("DEAL_FLG");
 					if (CommonConstant.DEAL_DEFAULT.equals(dealFlg)) {
 						OperationDataDao dao = new OperationDataDao();
@@ -486,9 +490,9 @@ public class OperationDialog extends JDialog {
 	private JButton getBtnCopyInit() {
 		if (btnCopyInit == null) {
 			btnCopyInit = new JButton();
-			btnCopyInit.setBounds(new java.awt.Rectangle(637,0,70,20));
+			btnCopyInit.setBounds(new Rectangle(666, 0, 90, 20));
 			btnCopyInit.setText("Copy");
-			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnCopyInit.setPreferredSize(new Dimension(70, 30));
 			btnCopyInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("unchecked")
@@ -510,6 +514,10 @@ public class OperationDialog extends JDialog {
 					Map<String, Object> valueMap = (Map<String, Object>)grid.getValueList().get(dateRow);
 					// 
 					OperationScenarioDataDialog dialog = new OperationScenarioDataDialog(OperationDialog.this, strDataId, strDataComment, CommonConstant.MODE_COPY, txtScenarioId.getText().trim(), txtScenarioName.getText().trim());
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					String dealFlg = (String)valueMap.get("DEAL_FLG");
 					if (CommonConstant.DEAL_DEFAULT.equals(dealFlg)) {
 						OperationDataDao dao = new OperationDataDao();
@@ -564,10 +572,10 @@ public class OperationDialog extends JDialog {
 	private JButton getBtnDelInit() {
 		if (btnDelInit == null) {
 			btnDelInit = new JButton();
-			btnDelInit.setBounds(new java.awt.Rectangle(707,0,60,20));
+			btnDelInit.setBounds(new Rectangle(758, 0, 60, 20));
 			btnDelInit.setPreferredSize(new Dimension(70, 30));
 			btnDelInit.setText("Del");
-			btnDelInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDelInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDelInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings({"unchecked" })
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -608,12 +616,16 @@ public class OperationDialog extends JDialog {
 	private JButton getAddData() {
 		if (addData == null) {
 			addData = new JButton();
-			addData.setBounds(new java.awt.Rectangle(670,40,110,20));
+			addData.setBounds(new Rectangle(710, 40, 120, 20));
 			addData.setText("Add");
 			addData.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					OperationScenarioDataDialog dialog = new OperationScenarioDataDialog(OperationDialog.this, "", "", CommonConstant.MODE_NEW, txtScenarioId.getText().trim(), txtScenarioName.getText().trim());
-					
+
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					iMemoRow = -1;
 					setVisible(false);
 					Utils.addWindow(dialog);

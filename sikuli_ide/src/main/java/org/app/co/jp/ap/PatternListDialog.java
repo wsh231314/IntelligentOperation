@@ -68,7 +68,7 @@ public class PatternListDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800,600));
+        this.setSize(new Dimension(870, 600));
         this.setContentPane(getJPanel());
 
         List title = new ArrayList();
@@ -106,12 +106,12 @@ public class PatternListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titlePatternType = new JLabel();
-			titlePatternType.setBounds(new java.awt.Rectangle(380,75,120,20));
+			titlePatternType.setBounds(new Rectangle(380, 72, 120, 22));
 			titlePatternType.setHorizontalAlignment(SwingConstants.CENTER);
 			titlePatternType.setText("Pattern Type");
 			titlePatternType.setBackground(new Color(255, 204, 204));
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new java.awt.Rectangle(570,75,210,20));
+			titleDeal.setBounds(new Rectangle(570, 72, 270, 22));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -120,24 +120,24 @@ public class PatternListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titleSelect = new JLabel();
-			titleSelect.setBounds(new java.awt.Rectangle(500,75,70,20));
+			titleSelect.setBounds(new Rectangle(500, 72, 70, 22));
 			titleSelect.setHorizontalAlignment(SwingConstants.CENTER);
 			titleSelect.setBackground(new Color(255,204,204));
 			titleSelect.setText("Select");
 			titlePatternName = new JLabel();
-			titlePatternName.setBounds(new java.awt.Rectangle(110,75,270,20));
+			titlePatternName.setBounds(new Rectangle(110, 72, 270, 22));
 			titlePatternName.setHorizontalAlignment(SwingConstants.CENTER);
 			titlePatternName.setBackground(new Color(255,204,204));
 			titlePatternName.setText("Pattern Name");
 			titlePatternId = new JLabel();
-			titlePatternId.setBounds(new java.awt.Rectangle(11,75,100,22));
+			titlePatternId.setBounds(new Rectangle(10, 72, 100, 22));
 			titlePatternId.setHorizontalAlignment(SwingConstants.CENTER);
 			titlePatternId.setText("Pattern ID");
 			lblExcelSelect = new JLabel();
-			lblExcelSelect.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblExcelSelect.setBounds(new Rectangle(10, 40, 120, 20));
 			lblExcelSelect.setText("Pattern Name");
 			jLabel = new JLabel();
-			jLabel.setBounds(new java.awt.Rectangle(10,10,205,24));
+			jLabel.setBounds(new java.awt.Rectangle(10,10,850,24));
 			jLabel.setText("Select the pattern which want to create the test data and output the Excel file.");
 			jPanel = new JPanel();
 			jPanel.setLayout(null);
@@ -181,7 +181,7 @@ public class PatternListDialog extends JDialog {
 			patternIdInit.setBounds(new java.awt.Rectangle(3,0,100,20));
 			patternIdInit.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new java.awt.Rectangle(10,95,770,300));
+			excelSheet.setBounds(new Rectangle(10, 95, 830, 300));
 			excelSheet.setLayout(null);
 			excelSheet.add(patternIdInit, null);
 			excelSheet.add(getExcelCheckInit(), null);
@@ -204,7 +204,7 @@ public class PatternListDialog extends JDialog {
 			btnExcelCreate = new JButton();
 			btnExcelCreate.setText("Create Data");
 			btnExcelCreate.setSize(new Dimension(150,30));
-			btnExcelCreate.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnExcelCreate.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnExcelCreate.setLocation(new java.awt.Point(10,507));
 			btnExcelCreate.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -243,8 +243,8 @@ public class PatternListDialog extends JDialog {
 		if (jButton == null) {
 			jButton = new JButton();
 			jButton.setText("Close");
-			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(690,500));
+			jButton.setSize(new Dimension(110, 30));
+			jButton.setLocation(new Point(710, 500));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					hide();
@@ -294,7 +294,7 @@ public class PatternListDialog extends JDialog {
 			sqlSaveButton = new JButton();
 			sqlSaveButton.setText("File Select");
 			sqlSaveButton.setLocation(new java.awt.Point(331,472));
-			sqlSaveButton.setSize(new Dimension(110,20));
+			sqlSaveButton.setSize(new Dimension(150, 20));
 			sqlSaveButton.setActionCommand("");
 			sqlSaveButton.setPreferredSize(new Dimension(70, 30));
 			sqlSaveButton.addActionListener(new java.awt.event.ActionListener() {
@@ -333,7 +333,7 @@ public class PatternListDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(130, 30));
 			preButton.setLocation(new java.awt.Point(10,399));
 		}
 		return preButton;
@@ -347,9 +347,9 @@ public class PatternListDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(690,403));
+			afterButton.setLocation(new Point(710, 403));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(130, 30));
 		}
 		return afterButton;
 	}
@@ -381,7 +381,7 @@ public class PatternListDialog extends JDialog {
 		if (excelSelect == null) {
 			excelSelect = new JButton();
 			excelSelect.setText("Search");
-			excelSelect.setLocation(new java.awt.Point(236,40));
+			excelSelect.setLocation(new Point(270, 40));
 			excelSelect.setSize(new Dimension(110,20));
 			excelSelect.setPreferredSize(new Dimension(70, 30));
 			excelSelect.addActionListener(new java.awt.event.ActionListener() {
@@ -406,7 +406,7 @@ public class PatternListDialog extends JDialog {
 	private JTextField getSearchPatternName() {
 		if (searchPatternName == null) {
 			searchPatternName = new JTextField();
-			searchPatternName.setBounds(new java.awt.Rectangle(100,40,130,20));
+			searchPatternName.setBounds(new Rectangle(130, 40, 130, 20));
 		}
 		return searchPatternName;
 	}
@@ -419,12 +419,16 @@ public class PatternListDialog extends JDialog {
 	private JButton getJButton1() {
 		if (jButton1 == null) {
 			jButton1 = new JButton();
-			jButton1.setBounds(new java.awt.Rectangle(670,40,110,20));
+			jButton1.setBounds(new Rectangle(690, 40, 150, 20));
 			jButton1.setText("Add Pattern");
 			jButton1.setPreferredSize(new Dimension(70, 30));
 			jButton1.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					PatternDialog dialog = new PatternDialog("", CommonConstant.MODE_NEW, CommonConstant.PATTERN_CUSTOMER);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					dialog.setModal(true);
 					dialog.show();
 					searchDetailList();
@@ -442,9 +446,9 @@ public class PatternListDialog extends JDialog {
 	private JButton getJButton2() {
 		if (jButton2 == null) {
 			jButton2 = new JButton();
-			jButton2.setBounds(new java.awt.Rectangle(557,0,70,20));
+			jButton2.setBounds(new Rectangle(559, 0, 90, 20));
 			jButton2.setText("Detail");
-			jButton2.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton2.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton2.setPreferredSize(new Dimension(70, 30));
 			jButton2.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -459,6 +463,10 @@ public class PatternListDialog extends JDialog {
 					String strPatternName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					String strType = ((JLabel)((List)compList.get(iRow)).get(2)).getText();
 					PatternDialog dialog = new PatternDialog(strPatternId, CommonConstant.MODE_UPDATE, strType);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					dialog.setPatternName(strPatternName);
 					dialog.setPatternId(strPatternId);
 					dialog.setModal(true);
@@ -478,9 +486,9 @@ public class PatternListDialog extends JDialog {
 	private JButton getJButton3() {
 		if (jButton3 == null) {
 			jButton3 = new JButton();
-			jButton3.setBounds(new java.awt.Rectangle(627,0,70,20));
+			jButton3.setBounds(new Rectangle(655, 0, 90, 20));
 			jButton3.setText("Copy");
-			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton3.setPreferredSize(new Dimension(70, 30));
 			jButton3.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -495,6 +503,10 @@ public class PatternListDialog extends JDialog {
 					String strPatternName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					String strType = ((JLabel)((List)compList.get(iRow)).get(2)).getText();
 					PatternDialog dialog = new PatternDialog(strPatternId, CommonConstant.MODE_COPY, strType);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					dialog.setPatternName(strPatternName);
 					dialog.setModal(true);
 					dialog.show();
@@ -524,10 +536,10 @@ public class PatternListDialog extends JDialog {
 	private JButton getJButton4() {
 		if (jButton4 == null) {
 			jButton4 = new JButton();
-			jButton4.setBounds(new java.awt.Rectangle(697,0,70,20));
+			jButton4.setBounds(new Rectangle(750, 0, 75, 20));
 			jButton4.setPreferredSize(new Dimension(70, 30));
 			jButton4.setText("Del");
-			jButton4.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton4.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton4.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					int iResult = JOptionPane.showConfirmDialog(PatternListDialog.this, "Do you want to delete?");

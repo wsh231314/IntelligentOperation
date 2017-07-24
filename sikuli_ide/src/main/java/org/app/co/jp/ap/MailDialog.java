@@ -142,7 +142,7 @@ public class MailDialog extends JDialog {
 		if (btnConfirm == null) {
 			btnConfirm = new JButton();
 			btnConfirm.setText("Confirm");
-			btnConfirm.setSize(new Dimension(90,30));
+			btnConfirm.setSize(new Dimension(110, 30));
 			btnConfirm.setLocation(new Point(10, 620));
 			btnConfirm.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -344,14 +344,14 @@ public class MailDialog extends JDialog {
 			lblAttachment = new JLabel();
 			lblAttachment.setText("Attachment:");
 			lblAttachment.setBounds(new Rectangle(10, 40, 80, 20));
-			lblAttachment.setBounds(10, 260, 80, 20);
+			lblAttachment.setBounds(10, 260, 105, 20);
 		}
 		return lblAttachment;
 	}
 	private JCheckBox getChkAttachment() {
 		if (chkAttachment == null) {
 			chkAttachment = new JCheckBox("if need to add the execute evidence in the mail, check it");
-			chkAttachment.setBounds(110, 260, 300, 23);
+			chkAttachment.setBounds(110, 260, 500, 23);
 		}
 		return chkAttachment;
 	}
@@ -369,7 +369,7 @@ public class MailDialog extends JDialog {
 			lblMailName = new JLabel();
 			lblMailName.setText("Mail Name");
 			lblMailName.setBounds(new Rectangle(10, 140, 80, 20));
-			lblMailName.setBounds(10, 80, 80, 20);
+			lblMailName.setBounds(10, 80, 100, 20);
 		}
 		return lblMailName;
 	}

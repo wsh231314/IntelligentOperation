@@ -7,6 +7,9 @@ import org.app.co.jp.util.ExcelUtils;
 import org.app.co.jp.util.XMLUtils;
 
 import javax.swing.*;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Point;
 
 public class ConnectionSetDialog extends JDialog {
 
@@ -105,7 +108,7 @@ public class ConnectionSetDialog extends JDialog {
 			btnImport = new JButton();
 			btnImport.setLocation(new java.awt.Point(30,175));
 			btnImport.setText("Export");
-			btnImport.setSize(new java.awt.Dimension(70,25));
+			btnImport.setSize(new Dimension(90, 25));
 			btnImport.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					XMLUtils util = new XMLUtils();
@@ -135,7 +138,7 @@ public class ConnectionSetDialog extends JDialog {
 			btnChange = new JButton();
 			btnChange.setSize(new java.awt.Dimension(90,25));
 			btnChange.setText("Set");
-			btnChange.setLocation(new java.awt.Point(120,175));
+			btnChange.setLocation(new Point(130, 175));
 			btnChange.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					setStatus(2);
@@ -155,7 +158,7 @@ public class ConnectionSetDialog extends JDialog {
 			btnTestUrl = new JButton();
 			btnTestUrl.setLocation(new java.awt.Point(480,120));
 			btnTestUrl.setText("TEST");
-			btnTestUrl.setSize(new java.awt.Dimension(70,20));
+			btnTestUrl.setSize(new Dimension(90, 20));
 			btnTestUrl.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					if (checkValid()) {
@@ -228,9 +231,9 @@ public class ConnectionSetDialog extends JDialog {
 	private JButton getBtnSet() {
 		if (btnSet == null) {
 			btnSet = new JButton();
-			btnSet.setSize(new java.awt.Dimension(70,25));
+			btnSet.setSize(new Dimension(100, 25));
 			btnSet.setText("Change");
-			btnSet.setLocation(new java.awt.Point(220,175));
+			btnSet.setLocation(new Point(230, 175));
 			btnSet.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					if (checkValid()) {
@@ -295,7 +298,7 @@ public class ConnectionSetDialog extends JDialog {
 	private JButton getBtnCancel() {
 		if (btnCancel == null) {
 			btnCancel = new JButton();
-			btnCancel.setBounds(new java.awt.Rectangle(300,175,70,25));
+			btnCancel.setBounds(new Rectangle(340, 175, 100, 25));
 			btnCancel.setText("Cancel");
 			btnCancel.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -315,7 +318,7 @@ public class ConnectionSetDialog extends JDialog {
 	private JButton getBtnClose() {
 		if (btnClose == null) {
 			btnClose = new JButton();
-			btnClose.setBounds(new java.awt.Rectangle(480,175,70,25));
+			btnClose.setBounds(new Rectangle(480, 175, 90, 25));
 			btnClose.setText("Closed");
 			btnClose.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {

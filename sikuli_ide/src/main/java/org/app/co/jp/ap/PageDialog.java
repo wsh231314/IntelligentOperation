@@ -101,7 +101,7 @@ public class PageDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800,600));
+        this.setSize(new Dimension(820, 600));
         this.setContentPane(getJPanel());
 
         List title = new ArrayList();
@@ -172,7 +172,7 @@ public class PageDialog extends JDialog {
 			titleFieldImage.setText("Image");
 			titleFieldImage.setBackground(new Color(255, 204, 204));
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new Rectangle(655, 75, 120, 60));
+			titleDeal.setBounds(new Rectangle(665, 75, 130, 60));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -181,7 +181,7 @@ public class PageDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("");
 			titleFieldName = new JLabel();
-			titleFieldName.setBounds(new Rectangle(80, 75, 170, 60));
+			titleFieldName.setBounds(new Rectangle(90, 75, 160, 60));
 			titleFieldName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleFieldName.setBackground(new Color(255,204,204));
 			titleFieldName.setText("Field name");
@@ -191,7 +191,7 @@ public class PageDialog extends JDialog {
 			titleFieldId.setBackground(new Color(255,160,204));
 			titleFieldId.setText("Field ID");
 			lblPageName = new JLabel();
-			lblPageName.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblPageName.setBounds(new Rectangle(10, 40, 120, 20));
 			lblPageName.setText("Page Name");
 			jLabel = new JLabel();
 			jLabel.setBounds(new java.awt.Rectangle(10,10,500,24));
@@ -240,7 +240,7 @@ public class PageDialog extends JDialog {
 			fieldIdInit.setBounds(new Rectangle(3, 21, 87, 20));
 			fieldIdInit.setText("JLabel");
 			pageSheet = new JPanel();
-			pageSheet.setBounds(new Rectangle(10, 135, 770, 340));
+			pageSheet.setBounds(new Rectangle(10, 135, 790, 340));
 			pageSheet.setLayout(null);
 			pageSheet.add(fieldIdInit, null);
 			
@@ -255,7 +255,7 @@ public class PageDialog extends JDialog {
 			pageSheet.add(recordNumInit, null);
 			
 			fieldNameInit = new JTextField();
-			fieldNameInit.setBounds(70, 21, 160, 20);
+			fieldNameInit.setBounds(80, 21, 150, 20);
 			pageSheet.add(fieldNameInit);
 			fieldNameInit.setColumns(10);
 			
@@ -275,7 +275,7 @@ public class PageDialog extends JDialog {
 		if (btnConfirm == null) {
 			btnConfirm = new JButton();
 			btnConfirm.setText("Confirm");
-			btnConfirm.setSize(new Dimension(90,30));
+			btnConfirm.setSize(new Dimension(120, 30));
 			btnConfirm.setLocation(new java.awt.Point(10,520));
 			btnConfirm.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -336,7 +336,7 @@ public class PageDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(690,520));
+			jButton.setLocation(new Point(680, 520));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					hide();
@@ -369,7 +369,7 @@ public class PageDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(10,480));
 		}
 		return preButton;
@@ -383,9 +383,9 @@ public class PageDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(690,480));
+			afterButton.setLocation(new Point(680, 480));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}
@@ -440,7 +440,7 @@ public class PageDialog extends JDialog {
 	private JButton getBtnDeleteRow() {
 		if (btnDeleteRow == null) {
 			btnDeleteRow = new JButton();
-			btnDeleteRow.setBounds(new Rectangle(680, 21, 60, 20));
+			btnDeleteRow.setBounds(new Rectangle(680, 21, 100, 20));
 			btnDeleteRow.setPreferredSize(new Dimension(70, 30));
 			btnDeleteRow.setText("Del");
 			btnDeleteRow.setFont(new Font("Dialog", Font.BOLD, 10));
