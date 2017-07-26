@@ -10,6 +10,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
+import java.net.URL;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -195,7 +196,7 @@ public class MainApplet extends JFrame {
 			mainPanel.add(getLabelPageList(), null);
 			// add chunhui.li
 			
-			JButton btnScriptList = createBtn("Script List", "./images/sl.png");
+			JButton btnScriptList = createBtn("Script List", "/icons/sl.png");
 			btnScriptList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					ScriptListDialog scriptDialog = new ScriptListDialog();
@@ -215,7 +216,7 @@ public class MainApplet extends JFrame {
 			mainPanel.add(getBtnScenarioList());
 			mainPanel.add(getLabelScenarioList());
 			
-			JButton btnOperationList = createBtn("Operation List", "./images/ol.png");//new JButton();
+			JButton btnOperationList = createBtn("Operation List", "/icons/ol.png");//new JButton();
 			btnOperationList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					Utils.addWindow(SikuliIDE.getMain());
@@ -306,7 +307,7 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getBtnExcelSelect() {
 		if (btnExcelSelect == null) {
-			btnExcelSelect = createBtn("Create Scripts", "./images/cs.png");
+			btnExcelSelect = createBtn("Create Scripts", "/icons/cs.png");
 			btnExcelSelect.setPreferredSize(new java.awt.Dimension(70,30));
 			btnExcelSelect.setLocation(new java.awt.Point(40, 50));
 			btnExcelSelect.setSize(new java.awt.Dimension( 100, 110));
@@ -366,7 +367,7 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getBtnTableInfoSet() {
 		if (btnTableInfoSet == null) {
-			btnTableInfoSet = createBtn("tables info", "./images/ti.png");
+			btnTableInfoSet = createBtn("tables info", "/icons/ti.png");
 			btnTableInfoSet.setBounds(new Rectangle(460, 200, 100, 110));
 			btnTableInfoSet.setText("tables info");
 			btnTableInfoSet.addActionListener(new java.awt.event.ActionListener() {
@@ -411,7 +412,7 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getJButton() {
 		if (btnPatternAdd == null) {
-			btnPatternAdd = createBtn("Batch Pattern", "./images/bp.png");
+			btnPatternAdd = createBtn("Batch Pattern", "/icons/bp.png");
 			btnPatternAdd.setBounds(new Rectangle(180, 50, 100, 110));
 			btnPatternAdd.setText("Batch Pattern");
 			btnPatternAdd.addActionListener(new java.awt.event.ActionListener() {
@@ -451,7 +452,7 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getJButton2() {
 		if (btnParamSet == null) {
-			btnParamSet = createBtn("Common cols", "./images/ccs.png");
+			btnParamSet = createBtn("Common cols", "/icons/ccs.png");
 			btnParamSet.setBounds(new Rectangle(320, 50, 100, 110));
 			btnParamSet.setText("Common cols");
 			btnParamSet.addActionListener(new java.awt.event.ActionListener() {
@@ -491,7 +492,7 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getJButton3() {
 		if (btnPageList == null) {
-			btnPageList = createBtn("Page List", "./images/pl.png");
+			btnPageList = createBtn("Page List", "/icons/pl.png");
 			btnPageList.setBounds(new Rectangle(180, 200, 100, 110));
 			btnPageList.setText("Page List");
 			btnPageList.addActionListener(new java.awt.event.ActionListener() {
@@ -528,7 +529,7 @@ public class MainApplet extends JFrame {
 	
 	private JButton getBtnScenarioList() {
 		if (btnScenarioList == null) {
-			btnScenarioList = createBtn("Scenario List", "./images/snl.png");
+			btnScenarioList = createBtn("Scenario List", "/icons/snl.png");
 			btnScenarioList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					Utils.addWindow(SikuliIDE.getMain());
@@ -560,7 +561,7 @@ public class MainApplet extends JFrame {
 	
 	private JButton getBtnMailList() {
 		if (btnMailList == null) {
-			btnMailList = createBtn("Scenario List", "./images/m.png");
+			btnMailList = createBtn("Scenario List", "/icons/m.png");
 			btnMailList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					MailListDialog dialog = new MailListDialog("", "", "", "", false);
@@ -589,7 +590,7 @@ public class MainApplet extends JFrame {
 	}
 	private JButton getBtnJobList() {
 		if (btnJobList == null) {
-			btnJobList = createBtn("Job List", "./images/jb.png");
+			btnJobList = createBtn("Job List", "/icons/jb.png");
 			btnJobList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					JobListDialog dialog = new JobListDialog();
@@ -617,7 +618,8 @@ public class MainApplet extends JFrame {
 	}
 
 	private JButton createBtn(String text, String icon) {  
-		ImageIcon imaIcon = new ImageIcon(icon);
+        URL imageURL = SikuliIDE.class.getResource(icon);
+		ImageIcon imaIcon = new ImageIcon(imageURL);
 		imaIcon.setImage(imaIcon.getImage().getScaledInstance(110, 110, Image.SCALE_DEFAULT));
         JButton btn = new JButton(imaIcon);  
         btn.setUI(new BasicButtonUI());// 恢复基本视觉效果  
