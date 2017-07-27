@@ -11,6 +11,9 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 
+import java.net.URL;
+
+
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
@@ -19,8 +22,11 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
+import javax.swing.UIManager;
 import javax.swing.WindowConstants;
 import javax.swing.plaf.basic.BasicButtonUI;
+
+import org.app.co.jp.com.CommonConstant;
 
 import org.app.co.jp.util.BasicLogger;
 import org.app.co.jp.util.Utils;
@@ -68,7 +74,42 @@ public class MainApplet extends JFrame {
 	 */
 	public MainApplet() {
 		super();
+		initFont (new javax.swing.plaf.FontUIResource(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
 		initialize();
+	}
+	
+	public void initFont(javax.swing.plaf.FontUIResource f) {
+		UIManager.put("Button.font", f);
+		UIManager.put("ToggleButton.font", f);
+		UIManager.put("RadioButton.font", f);
+		UIManager.put("CheckBox.font", f);
+		UIManager.put("ColorChooser.font", f);
+		UIManager.put("ComboBox.font", f);
+		UIManager.put("Label.font", f);
+		UIManager.put("List.font", f);
+		UIManager.put("MenuBar.font", f);
+		UIManager.put("MenuItem.font", f);
+		UIManager.put("RadioButtonMenuItem.font", f);
+		UIManager.put("CheckBoxMenuItem.font", f);
+		UIManager.put("Menu.font", f);
+		UIManager.put("PopupMenu.font", f);
+		UIManager.put("OptionPane.font", f);
+		UIManager.put("Panel.font", f);
+		UIManager.put("ProgressBar.font", f);
+		UIManager.put("ScrollPane.font", f);
+		UIManager.put("Viewport.font", f);
+		UIManager.put("TabbedPane.font", f);
+		UIManager.put("Table.font", f);
+		UIManager.put("TableHeader.font", f);
+		UIManager.put("TextField.font", f);
+		UIManager.put("PasswordField.font", f);
+		UIManager.put("TextArea.font", f);
+		UIManager.put("TextPane.font", f);
+		UIManager.put("EditorPane.font", f);
+		UIManager.put("TitledBorder.font", f);
+		UIManager.put("ToolBar.font", f);
+		UIManager.put("ToolTip.font", f);
+		UIManager.put("Tree.font", f);
 	}
 
 	/**
@@ -76,6 +117,7 @@ public class MainApplet extends JFrame {
 	 * 
 	 */
 	public void initialize() {
+
 		this.setBounds(0, 0, 450, 700);
         this.setContentPane(getMainPanel());
 
@@ -97,7 +139,7 @@ public class MainApplet extends JFrame {
 	private JPanel getMainPanel() {
 		if (mainPanel == null) {
 			jLabel5 = new JLabel();
-			jLabel5.setBounds(new Rectangle(168, 630, 300, 16));
+			jLabel5.setBounds(new Rectangle(228, 517, 346, 33));
 			jLabel5.setVerticalAlignment(SwingConstants.TOP);
 			jLabel5.setVerticalTextPosition(SwingConstants.TOP);
 			jLabel5.setText("shawn.shaohua.wang@accenture.com");
@@ -130,7 +172,7 @@ public class MainApplet extends JFrame {
 			mainPanel = new JPanel();
 			mainPanel.setLayout(null);
 			mainPanel.setSize(800, 600);
-			mainPanel.add(getBtnClose(), null);
+//			mainPanel.add(getBtnClose(), null);
 			mainPanel.add(lblMessageLabel1, null);
 			mainPanel.add(getBtnExcelSelect(), null);
 			// add chunhui.li
@@ -158,7 +200,8 @@ public class MainApplet extends JFrame {
 			mainPanel.add(getLabelPageList(), null);
 			// add chunhui.li
 			
-			JButton btnScriptList = createBtn("Script List", "./images/sl.png");
+			JButton btnScriptList = createBtn("Script List", "/icons/sl.png");
+
 			btnScriptList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					ScriptListDialog scriptDialog = new ScriptListDialog();
@@ -171,14 +214,18 @@ public class MainApplet extends JFrame {
 				}
 			});
 			btnScriptList.setText("Script List");
-			btnScriptList.setBounds(new Rectangle(40, 200, 80, 110));
-			btnScriptList.setBounds(40, 200, 80, 110);
+
+			btnScriptList.setBounds(new Rectangle(40, 200, 100, 110));
+			btnScriptList.setBounds(40, 200, 100, 110);
+
 			mainPanel.add(btnScriptList);
 			mainPanel.add(getLabelScriptList());
 			mainPanel.add(getBtnScenarioList());
 			mainPanel.add(getLabelScenarioList());
 			
-			JButton btnOperationList = createBtn("Operation List", "./images/ol.png");//new JButton();
+
+			JButton btnOperationList = createBtn("Operation List", "/icons/ol.png");//new JButton();
+
 			btnOperationList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					Utils.addWindow(SikuliIDE.getMain());
@@ -194,7 +241,9 @@ public class MainApplet extends JFrame {
 			});
 			btnOperationList.setText("Operation List");
 //			btnOperationList.setBounds(new Rectangle(40, 340, 110, 30));
-			btnOperationList.setBounds(40, 350, 80, 110);
+
+			btnOperationList.setBounds(40, 350, 100, 110);
+
 			mainPanel.add(btnOperationList);
 			mainPanel.add(getLabelOperationList());
 			mainPanel.add(getBtnMailList());
@@ -218,7 +267,10 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelScriptList() {
 		if (labelScriptList == null) {
 			labelScriptList = new JLabel();
-			labelScriptList.setBounds(new Rectangle(40, 265, 80,110));
+
+//			labelScriptList.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelScriptList.setBounds(new Rectangle(40, 265, 130, 110));
+
 			labelScriptList.setText("Script List");
 		}
 		return labelScriptList;
@@ -232,7 +284,10 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelOperationList() {
 		if (labelOperationList == null) {
 			labelOperationList = new JLabel();
-			labelOperationList.setBounds(new Rectangle(40, 415, 80,110));
+
+//			labelOperationList.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelOperationList.setBounds(new Rectangle(20, 415, 130, 110));
+
 			labelOperationList.setText("Operation List");
 		}
 		return labelOperationList;
@@ -267,10 +322,12 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getBtnExcelSelect() {
 		if (btnExcelSelect == null) {
-			btnExcelSelect = createBtn("Create Scripts", "./images/cs.png");
+
+			btnExcelSelect = createBtn("Create Scripts", "/icons/cs.png");
 			btnExcelSelect.setPreferredSize(new java.awt.Dimension(70,30));
 			btnExcelSelect.setLocation(new java.awt.Point(40, 50));
-			btnExcelSelect.setSize(new java.awt.Dimension(80,110));
+			btnExcelSelect.setSize(new java.awt.Dimension( 100, 110));
+
 			btnExcelSelect.setText("Create Scripts");
 		    
 			btnExcelSelect.addActionListener(new java.awt.event.ActionListener() {
@@ -290,7 +347,10 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelExcelSelect() {
 		if (labelExcelSelect == null) {
 			labelExcelSelect = new JLabel();
-			labelExcelSelect.setBounds(new Rectangle(40, 115, 80,110));
+
+//			labelExcelSelect.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelExcelSelect.setBounds(new Rectangle(20, 115, 130, 110));
+
 			labelExcelSelect.setText("Create Scripts");
 		}
 		return labelExcelSelect;
@@ -326,8 +386,10 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getBtnTableInfoSet() {
 		if (btnTableInfoSet == null) {
-			btnTableInfoSet = createBtn("tables info", "./images/ti.png");
-			btnTableInfoSet.setBounds(new Rectangle(40, 500, 80, 110));
+
+			btnTableInfoSet = createBtn("tables info", "/icons/ti.png");
+			btnTableInfoSet.setBounds(new Rectangle(460, 200, 100, 110));
+
 			btnTableInfoSet.setText("tables info");
 			btnTableInfoSet.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -357,7 +419,10 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelTableInfoSet() {
 		if (labelTableInfoSet == null) {
 			labelTableInfoSet = new JLabel();
-			labelTableInfoSet.setBounds(new Rectangle(40, 565, 80, 110));
+
+//			labelTableInfoSet.SETFONT(NEW FONT(COMMONCONSTANT.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelTableInfoSet.setBounds(new Rectangle(460, 265, 130, 110));
+
 			labelTableInfoSet.setText("tables info");
 		}
 		return labelTableInfoSet;
@@ -370,8 +435,10 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getJButton() {
 		if (btnPatternAdd == null) {
-			btnPatternAdd = createBtn("Batch Pattern", "./images/bp.png");
-			btnPatternAdd.setBounds(new Rectangle(180, 50, 80, 110));
+
+			btnPatternAdd = createBtn("Batch Pattern", "/icons/bp.png");
+			btnPatternAdd.setBounds(new Rectangle(180, 50, 100, 110));
+
 			btnPatternAdd.setText("Batch Pattern");
 			btnPatternAdd.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -396,7 +463,10 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelPatternAdd() {
 		if (labelPatternAdd == null) {
 			labelPatternAdd = new JLabel();
-			labelPatternAdd.setBounds(new Rectangle(180, 115, 80,110));
+
+//			labelPatternAdd.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelPatternAdd.setBounds(new Rectangle(160, 115, 130, 110));
+
 			labelPatternAdd.setText("Batch Pattern");
 		}
 		return labelPatternAdd;
@@ -409,8 +479,10 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getJButton2() {
 		if (btnParamSet == null) {
-			btnParamSet = createBtn("Common cols", "./images/ccs.png");
-			btnParamSet.setBounds(new Rectangle(320, 50, 80, 110));
+
+			btnParamSet = createBtn("Common cols", "/icons/ccs.png");
+			btnParamSet.setBounds(new Rectangle(320, 50, 100, 110));
+
 			btnParamSet.setText("Common cols");
 			btnParamSet.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -435,7 +507,10 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelParamSet() {
 		if (labelParamSet == null) {
 			labelParamSet = new JLabel();
-			labelParamSet.setBounds(new Rectangle(320, 115, 80,110));
+
+//			labelParamSet.SETFONT(NEW FONT(COMMONCONSTANT.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelParamSet.setBounds(new Rectangle(300, 115, 130, 110));
+
 			labelParamSet.setText("Common cols");
 		}
 		return labelParamSet;
@@ -448,8 +523,10 @@ public class MainApplet extends JFrame {
 	 */
 	private JButton getJButton3() {
 		if (btnPageList == null) {
-			btnPageList = createBtn("Page List", "./images/pl.png");
-			btnPageList.setBounds(new Rectangle(180, 200, 80, 110));
+
+			btnPageList = createBtn("Page List", "/icons/pl.png");
+			btnPageList.setBounds(new Rectangle(180, 200, 100, 110));
+
 			btnPageList.setText("Page List");
 			btnPageList.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -476,7 +553,10 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelPageList() {
 		if (labelPageList == null) {
 			labelPageList = new JLabel();
-			labelPageList.setBounds(new Rectangle(180, 265, 80,110));
+
+//			labelPageList.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelPageList.setBounds(new Rectangle(180, 265,  100, 110));
+
 			labelPageList.setText("Page List");
 		}
 		return labelPageList;
@@ -484,7 +564,9 @@ public class MainApplet extends JFrame {
 	
 	private JButton getBtnScenarioList() {
 		if (btnScenarioList == null) {
-			btnScenarioList = createBtn("Scenario List", "./images/snl.png");
+
+			btnScenarioList = createBtn("Scenario List", "/icons/snl.png");
+
 			btnScenarioList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					Utils.addWindow(SikuliIDE.getMain());
@@ -499,14 +581,19 @@ public class MainApplet extends JFrame {
 				}
 			});
 			btnScenarioList.setText("Scenario List");
-			btnScenarioList.setBounds(new Rectangle(320, 200, 80, 110));
+
+			btnScenarioList.setBounds(new Rectangle(320, 200, 100, 110));
+
 		}
 		return btnScenarioList;
 	}
 	private JLabel getLabelScenarioList() {
 		if (labelScenarioList == null) {
 			labelScenarioList = new JLabel();
-			labelScenarioList.setBounds(new Rectangle(320, 265, 80,110));
+
+//			labelScenarioList.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelScenarioList.setBounds(new Rectangle(300, 265, 130, 110));
+
 			labelScenarioList.setText("Scenario List");
 		}
 		return labelScenarioList;
@@ -515,7 +602,9 @@ public class MainApplet extends JFrame {
 	
 	private JButton getBtnMailList() {
 		if (btnMailList == null) {
-			btnMailList = createBtn("Scenario List", "./images/m.png");
+
+			btnMailList = createBtn("Scenario List", "/icons/m.png");
+
 			btnMailList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					MailListDialog dialog = new MailListDialog("", "", "", "", false);
@@ -528,7 +617,9 @@ public class MainApplet extends JFrame {
 				}
 			});
 			btnMailList.setText("Mail List");
-			btnMailList.setBounds(new Rectangle(180, 350, 80, 110));
+
+			btnMailList.setBounds(new Rectangle(180, 350, 100, 110));
+
 //			btnMailList.setBounds(40, 440, 110, 30);
 		}
 		return btnMailList;
@@ -536,14 +627,19 @@ public class MainApplet extends JFrame {
 	private JLabel getLabelMailList() {
 		if (labelMailList == null) {
 			labelMailList = new JLabel();
-			labelMailList.setBounds(new Rectangle(180, 415, 80,110));
+
+//			labelMailList.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelMailList.setBounds(new Rectangle(180, 415,  100, 110));
+
 			labelMailList.setText("Mail List");
 		}
 		return labelMailList;
 	}
 	private JButton getBtnJobList() {
 		if (btnJobList == null) {
-			btnJobList = createBtn("Job List", "./images/jb.png");
+
+			btnJobList = createBtn("Job List", "/icons/jb.png");
+
 			btnJobList.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					JobListDialog dialog = new JobListDialog();
@@ -556,28 +652,33 @@ public class MainApplet extends JFrame {
 				}
 			});
 			btnJobList.setText("Job List");
-			btnJobList.setBounds(new Rectangle(320, 350, 80, 110));
-//			btnJobList.setBounds(40, 490, 110, 30);
+
+			btnJobList.setBounds(new Rectangle(460, 50, 100, 110));
+
 		}
 		return btnJobList;
 	}
 	private JLabel getLabelJobList() {
 		if (labelJobList == null) {
 			labelJobList = new JLabel();
-			labelJobList.setBounds(new Rectangle(320, 415, 80,110));
+
+//			labelJobList.setFont(new Font(CommonConstant.FONT, CommonConstant.FONT_TYPE, CommonConstant.FONT_SIZE));
+			labelJobList.setBounds(new Rectangle(460, 115,  100, 110));
+
 			labelJobList.setText("Job List");
 		}
 		return labelJobList;
 	}
 
 	private JButton createBtn(String text, String icon) {  
-//		Image image = getToolkit().getImage(icon);
-		ImageIcon imaIcon = new ImageIcon(icon);
-		imaIcon.setImage(imaIcon.getImage().getScaledInstance(90, 110, Image.SCALE_DEFAULT));
-        JButton btn = new JButton(text, imaIcon);  
+
+        URL imageURL = SikuliIDE.class.getResource(icon);
+		ImageIcon imaIcon = new ImageIcon(imageURL);
+		imaIcon.setImage(imaIcon.getImage().getScaledInstance(110, 110, Image.SCALE_DEFAULT));
+        JButton btn = new JButton(imaIcon);  
         btn.setUI(new BasicButtonUI());// 恢复基本视觉效果  
         btn.setContentAreaFilled(false);// 设置按钮透明  
-        btn.setFont(new Font("粗体", Font.PLAIN, 15));// 按钮文本样式  
+
         btn.setMargin(new Insets(0, 0, 0, 0));// 按钮内容与边框距离  
         return btn;  
     }  

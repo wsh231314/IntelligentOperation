@@ -55,7 +55,7 @@ public class ParameterDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new java.awt.Dimension(650,450));
+        this.setSize(new Dimension(700, 500));
         this.setContentPane(getJPanel());
         // title
         List title = new ArrayList();
@@ -93,32 +93,32 @@ public class ParameterDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			jLabel2 = new JLabel();
-			jLabel2.setBounds(new java.awt.Rectangle(546,75,75,20));
+			jLabel2.setBounds(new Rectangle(546, 73, 125, 20));
 			jLabel2.setHorizontalAlignment(SwingConstants.CENTER);
 			jLabel2.setText("Delete");
 			jLabel2.setBackground(new Color(255, 204, 204));
 			jLabel = new JLabel();
-			jLabel.setBounds(new java.awt.Rectangle(10,10,437,20));
+			jLabel.setBounds(new Rectangle(10, 10, 595, 20));
 			jLabel.setText("When create scripts for the data in excel sheet, the columns in here, ");
 			jLabel1 = new JLabel();
-			jLabel1.setBounds(new java.awt.Rectangle(10,37,437,20));
+			jLabel1.setBounds(new Rectangle(10, 37, 560, 20));
 			jLabel1.setText("will be automatically covered by the content in the [Covered content] column.");
 			pageInfoLbl = new JLabel();
 			pageInfoLbl.setBounds(new java.awt.Rectangle(156,340,315,30));
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("");
 			titleSelect = new JLabel();
-			titleSelect.setBounds(new java.awt.Rectangle(415,75,130,20));
+			titleSelect.setBounds(new Rectangle(435, 73, 100, 20));
 			titleSelect.setHorizontalAlignment(SwingConstants.CENTER);
 			titleSelect.setBackground(new Color(255,204,204));
 			titleSelect.setText("Use flag");
 			titleSheetName = new JLabel();
-			titleSheetName.setBounds(new java.awt.Rectangle(162,75,250,20));
+			titleSheetName.setBounds(new Rectangle(162, 73, 270, 20));
 			titleSheetName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleSheetName.setBackground(new Color(255,204,204));
 			titleSheetName.setText("Covered content");
 			titleFileNameLbl = new JLabel();
-			titleFileNameLbl.setBounds(new java.awt.Rectangle(10,75,150,20));
+			titleFileNameLbl.setBounds(new Rectangle(10, 73, 150, 20));
 			titleFileNameLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			titleFileNameLbl.setBackground(new Color(255,160,204));
 			titleFileNameLbl.setText("Column name");
@@ -149,7 +149,7 @@ public class ParameterDialog extends JDialog {
 	private JPanel getExcelSheet() {
 		if (excelSheet == null) {
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new java.awt.Rectangle(10,95,620,236));
+			excelSheet.setBounds(new Rectangle(10, 95, 665, 236));
 			excelSheet.setLayout(null);
 			excelSheet.add(getCkbUseable(), null);
 			excelSheet.add(getTxtFieldName(), null);
@@ -168,8 +168,8 @@ public class ParameterDialog extends JDialog {
 		if (btnSet == null) {
 			btnSet = new JButton();
 			btnSet.setText("Setting");
-			btnSet.setSize(new java.awt.Dimension(90,30));
-			btnSet.setLocation(new java.awt.Point(11,385));
+			btnSet.setSize(new Dimension(130, 30));
+			btnSet.setLocation(new Point(12, 385));
 			btnSet.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					try {
@@ -212,7 +212,7 @@ public class ParameterDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new java.awt.Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(536,385));
+			jButton.setLocation(new Point(545, 385));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					hide();
@@ -290,7 +290,7 @@ public class ParameterDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev page");
-			preButton.setSize(new java.awt.Dimension(90,30));
+			preButton.setSize(new Dimension(130, 30));
 			preButton.setLocation(new java.awt.Point(12,340));
 		}
 		return preButton;
@@ -304,9 +304,9 @@ public class ParameterDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(536,340));
+			afterButton.setLocation(new Point(545, 340));
 			afterButton.setText("Next page");
-			afterButton.setSize(new java.awt.Dimension(90,30));
+			afterButton.setSize(new Dimension(130, 30));
 		}
 		return afterButton;
 	}
@@ -319,7 +319,7 @@ public class ParameterDialog extends JDialog {
 	private JCheckBox getCkbUseable() {
 		if (ckbUseable == null) {
 			ckbUseable = new JCheckBox();
-			ckbUseable.setBounds(new java.awt.Rectangle(410,0,130,20));
+			ckbUseable.setBounds(new Rectangle(425, 0, 100, 20));
 			ckbUseable.setText("Used");
 		}
 		return ckbUseable;
@@ -346,7 +346,7 @@ public class ParameterDialog extends JDialog {
 	private JTextField getTxtFieldValue() {
 		if (txtFieldValue == null) {
 			txtFieldValue = new JTextField();
-			txtFieldValue.setBounds(new java.awt.Rectangle(155,0,250,20));
+			txtFieldValue.setBounds(new Rectangle(155, 0, 270, 20));
 		}
 		return txtFieldValue;
 	}
@@ -359,7 +359,7 @@ public class ParameterDialog extends JDialog {
 	private JButton getBtnDel() {
 		if (btnDel == null) {
 			btnDel = new JButton();
-			btnDel.setBounds(new java.awt.Rectangle(543,0,72,20));
+			btnDel.setBounds(new Rectangle(540, 0, 120, 20));
 			btnDel.setText("Delete");
 			btnDel.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -394,7 +394,7 @@ public class ParameterDialog extends JDialog {
 	private JButton getJButton1() {
 		if (jButton1 == null) {
 			jButton1 = new JButton();
-			jButton1.setBounds(new java.awt.Rectangle(536,27,90,30));
+			jButton1.setBounds(new Rectangle(580, 27, 90, 30));
 			jButton1.setText("Add");
 			jButton1.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {

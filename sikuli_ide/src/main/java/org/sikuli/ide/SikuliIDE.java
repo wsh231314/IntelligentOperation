@@ -3059,6 +3059,10 @@ public class SikuliIDE extends JFrame implements InvocationHandler {
         if (applet == null) {
             applet = new MainApplet();
         }
+        // --------------------------------------------------------
+        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+        // -------------------------------------------------------
+        applet.setLocationRelativeTo(null);
         applet.setVisible(true);
         applet.requestFocus();
     }

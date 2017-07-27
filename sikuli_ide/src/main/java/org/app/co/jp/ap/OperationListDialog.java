@@ -75,7 +75,7 @@ public class OperationListDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800,600));
+        this.setSize(new Dimension(850, 600));
         this.setContentPane(getJPanel());
 
         List<String> title = new ArrayList<String>();
@@ -109,7 +109,7 @@ public class OperationListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new java.awt.Rectangle(570,75,210,20));
+			titleDeal.setBounds(new Rectangle(570, 73, 210, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -118,16 +118,16 @@ public class OperationListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titleOperationName = new JLabel();
-			titleOperationName.setBounds(new Rectangle(110, 75, 460, 20));
+			titleOperationName.setBounds(new Rectangle(130, 73, 440, 20));
 			titleOperationName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleOperationName.setBackground(new Color(255,204,204));
 			titleOperationName.setText("Operation Name");
 			titleOperation = new JLabel();
-			titleOperation.setBounds(new java.awt.Rectangle(11,75,100,22));
+			titleOperation.setBounds(new Rectangle(11, 73, 120, 22));
 			titleOperation.setHorizontalAlignment(SwingConstants.CENTER);
 			titleOperation.setText("Operation ID");
 			lblOperationSelect = new JLabel();
-			lblOperationSelect.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblOperationSelect.setBounds(new Rectangle(10, 40, 150, 20));
 			lblOperationSelect.setText("Operation Name");
 			jLabel = new JLabel();
 			jLabel.setBounds(new java.awt.Rectangle(10,10,205,24));
@@ -159,14 +159,14 @@ public class OperationListDialog extends JDialog {
 	private JPanel getExcelSheet() {
 		if (excelSheet == null) {
 			operationNameInit = new JLabel();
-			operationNameInit.setBounds(new Rectangle(100, 0, 457, 20));
+			operationNameInit.setBounds(new Rectangle(120, 0, 437, 20));
 			operationNameInit.setText("JLabel");
 			operationIdInit = new JLabel();
 			operationIdInit.setHorizontalAlignment(SwingConstants.CENTER);
-			operationIdInit.setBounds(new java.awt.Rectangle(3,0,100,20));
+			operationIdInit.setBounds(new Rectangle(3, 0, 120, 20));
 			operationIdInit.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new Rectangle(10, 95, 770, 350));
+			excelSheet.setBounds(new Rectangle(10, 95, 820, 350));
 			excelSheet.setLayout(null);
 			excelSheet.add(operationIdInit, null);
 			excelSheet.add(operationNameInit, null);
@@ -187,7 +187,7 @@ public class OperationListDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(690,500));
+			jButton.setLocation(new Point(710, 500));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					setVisible(false);
@@ -220,7 +220,7 @@ public class OperationListDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new Point(10, 450));
 		}
 		return preButton;
@@ -234,9 +234,9 @@ public class OperationListDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new Point(690, 450));
+			afterButton.setLocation(new Point(710, 450));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}
@@ -250,7 +250,7 @@ public class OperationListDialog extends JDialog {
 		if (operationSelect == null) {
 			operationSelect = new JButton();
 			operationSelect.setText("Search");
-			operationSelect.setLocation(new java.awt.Point(236,40));
+			operationSelect.setLocation(new Point(296, 40));
 			operationSelect.setSize(new Dimension(110,20));
 			operationSelect.setPreferredSize(new Dimension(70, 30));
 			operationSelect.addActionListener(new java.awt.event.ActionListener() {
@@ -275,7 +275,7 @@ public class OperationListDialog extends JDialog {
 	private JTextField getSearchOperationName() {
 		if (searchOperationName == null) {
 			searchOperationName = new JTextField();
-			searchOperationName.setBounds(new java.awt.Rectangle(100,40,130,20));
+			searchOperationName.setBounds(new Rectangle(160, 40, 130, 20));
 		}
 		return searchOperationName;
 	}
@@ -288,12 +288,16 @@ public class OperationListDialog extends JDialog {
 	private JButton getJButton1() {
 		if (jButton1 == null) {
 			jButton1 = new JButton();
-			jButton1.setBounds(new java.awt.Rectangle(670,40,110,20));
+			jButton1.setBounds(new Rectangle(660, 40, 170, 20));
 			jButton1.setText("Add Operation");
 			jButton1.setPreferredSize(new Dimension(70, 30));
 			jButton1.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					OperationDialog dialog = new OperationDialog(OperationListDialog.this, "", "", CommonConstant.MODE_NEW);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					setVisible(false);
 					Utils.addWindow(dialog);
 					dialog.setVisible(true);;
@@ -311,9 +315,9 @@ public class OperationListDialog extends JDialog {
 	private JButton getBtnDetailInit() {
 		if (btnDetailInit == null) {
 			btnDetailInit = new JButton();
-			btnDetailInit.setBounds(new java.awt.Rectangle(557,0,70,20));
+			btnDetailInit.setBounds(new Rectangle(557, 0, 95, 20));
 			btnDetailInit.setText("Detail");
-			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDetailInit.setPreferredSize(new Dimension(70, 30));
 			btnDetailInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
@@ -328,6 +332,10 @@ public class OperationListDialog extends JDialog {
 					String strOperationId = ((JLabel)((List)compList.get(iRow)).get(0)).getText();
 					String strOperationName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					OperationDialog dialog = new OperationDialog(OperationListDialog.this, strOperationId, strOperationName, CommonConstant.MODE_UPDATE);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					setVisible(false);
 					Utils.addWindow(dialog);
 					dialog.setVisible(true);
@@ -345,9 +353,9 @@ public class OperationListDialog extends JDialog {
 	private JButton getBtnCopyInit() {
 		if (btnCopyInit == null) {
 			btnCopyInit = new JButton();
-			btnCopyInit.setBounds(new java.awt.Rectangle(627,0,70,20));
+			btnCopyInit.setBounds(new Rectangle(655, 0, 90, 20));
 			btnCopyInit.setText("Copy");
-			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnCopyInit.setPreferredSize(new Dimension(70, 30));
 			btnCopyInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
@@ -362,6 +370,10 @@ public class OperationListDialog extends JDialog {
 					String strOperationId = ((JLabel)((List)compList.get(iRow)).get(0)).getText();
 					String strOperationName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					OperationDialog dialog = new OperationDialog(OperationListDialog.this, strOperationId, strOperationName, CommonConstant.MODE_COPY);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					setVisible(false);
 					Utils.addWindow(dialog);
 					dialog.setVisible(true);
@@ -390,10 +402,10 @@ public class OperationListDialog extends JDialog {
 	private JButton getBtnDelInit() {
 		if (btnDelInit == null) {
 			btnDelInit = new JButton();
-			btnDelInit.setBounds(new java.awt.Rectangle(697,0,70,20));
+			btnDelInit.setBounds(new Rectangle(747, 0, 70, 20));
 			btnDelInit.setPreferredSize(new Dimension(70, 30));
 			btnDelInit.setText("Del");
-			btnDelInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDelInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDelInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
 				public void actionPerformed(java.awt.event.ActionEvent e) {

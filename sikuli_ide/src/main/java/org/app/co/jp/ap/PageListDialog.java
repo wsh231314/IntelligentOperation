@@ -73,7 +73,7 @@ public class PageListDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800,600));
+        this.setSize(new Dimension(830, 600));
         this.setContentPane(getJPanel());
 
         List<String> title = new ArrayList<String>();
@@ -107,7 +107,7 @@ public class PageListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new java.awt.Rectangle(570,75,210,20));
+			titleDeal.setBounds(new Rectangle(550, 73, 258, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -116,16 +116,16 @@ public class PageListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titlePageName = new JLabel();
-			titlePageName.setBounds(new Rectangle(110, 75, 460, 20));
+			titlePageName.setBounds(new Rectangle(110, 73, 440, 20));
 			titlePageName.setHorizontalAlignment(SwingConstants.CENTER);
 			titlePageName.setBackground(new Color(255,204,204));
 			titlePageName.setText("Page Name");
 			titlePageId = new JLabel();
-			titlePageId.setBounds(new java.awt.Rectangle(11,75,100,22));
+			titlePageId.setBounds(new Rectangle(11, 73, 100, 22));
 			titlePageId.setHorizontalAlignment(SwingConstants.CENTER);
 			titlePageId.setText("Page ID");
 			lblPageSelect = new JLabel();
-			lblPageSelect.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblPageSelect.setBounds(new Rectangle(10, 40, 110, 20));
 			lblPageSelect.setText("Page Name");
 			jLabel = new JLabel();
 			jLabel.setBounds(new Rectangle(10, 10, 500, 24));
@@ -157,13 +157,13 @@ public class PageListDialog extends JDialog {
 	private JPanel getExcelSheet() {
 		if (excelSheet == null) {
 			pageNameInit = new JLabel();
-			pageNameInit.setBounds(new Rectangle(100, 0, 457, 20));
+			pageNameInit.setBounds(new Rectangle(100, 0, 437, 20));
 			pageNameInit.setText("JLabel");
 			pageIdInit = new JLabel();
 			pageIdInit.setBounds(new java.awt.Rectangle(3,0,100,20));
 			pageIdInit.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new java.awt.Rectangle(10,95,770,300));
+			excelSheet.setBounds(new Rectangle(10, 95, 800, 300));
 			excelSheet.setLayout(null);
 			excelSheet.add(pageIdInit, null);
 			excelSheet.add(pageNameInit, null);
@@ -217,7 +217,7 @@ public class PageListDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(10,399));
 		}
 		return preButton;
@@ -233,7 +233,7 @@ public class PageListDialog extends JDialog {
 			afterButton = new JButton();
 			afterButton.setLocation(new java.awt.Point(690,403));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}
@@ -247,7 +247,7 @@ public class PageListDialog extends JDialog {
 		if (pageSelect == null) {
 			pageSelect = new JButton();
 			pageSelect.setText("Search");
-			pageSelect.setLocation(new java.awt.Point(236,40));
+			pageSelect.setLocation(new Point(256, 40));
 			pageSelect.setSize(new Dimension(110,20));
 			pageSelect.setPreferredSize(new Dimension(70, 30));
 			pageSelect.addActionListener(new java.awt.event.ActionListener() {
@@ -272,7 +272,7 @@ public class PageListDialog extends JDialog {
 	private JTextField getSearchPageName() {
 		if (searchPageName == null) {
 			searchPageName = new JTextField();
-			searchPageName.setBounds(new java.awt.Rectangle(100,40,130,20));
+			searchPageName.setBounds(new Rectangle(120, 40, 130, 20));
 		}
 		return searchPageName;
 	}
@@ -285,12 +285,16 @@ public class PageListDialog extends JDialog {
 	private JButton getAddPage() {
 		if (addPage == null) {
 			addPage = new JButton();
-			addPage.setBounds(new java.awt.Rectangle(670,40,110,20));
+			addPage.setBounds(new Rectangle(685, 40, 120, 20));
 			addPage.setText("Add Page");
 			addPage.setPreferredSize(new Dimension(70, 30));
 			addPage.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					PageDialog dialog = new PageDialog(PageListDialog.this, "",  "", CommonConstant.MODE_NEW);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					setVisible(false);
 					Utils.addWindow(dialog);
 					dialog.show();
@@ -308,9 +312,9 @@ public class PageListDialog extends JDialog {
 	private JButton getJButton2() {
 		if (jButton2 == null) {
 			jButton2 = new JButton();
-			jButton2.setBounds(new java.awt.Rectangle(557,0,70,20));
+			jButton2.setBounds(new Rectangle(537, 0, 100, 20));
 			jButton2.setText("Detail");
-			jButton2.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton2.setFont(new Font("Dialog", FONT.BOLD, 10));
 			jButton2.setPreferredSize(new Dimension(70, 30));
 			jButton2.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -324,6 +328,10 @@ public class PageListDialog extends JDialog {
 					String strPageId = ((JLabel)((List)compList.get(iRow)).get(0)).getText();
 					String strPageName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					PageDialog dialog = new PageDialog(PageListDialog.this, strPageId, strPageName, CommonConstant.MODE_UPDATE);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					setVisible(false);
 					Utils.addWindow(dialog);
 					dialog.show();
@@ -341,9 +349,9 @@ public class PageListDialog extends JDialog {
 	private JButton getJButton3() {
 		if (jButton3 == null) {
 			jButton3 = new JButton();
-			jButton3.setBounds(new java.awt.Rectangle(627,0,70,20));
+			jButton3.setBounds(new Rectangle(637, 0, 90, 20));
 			jButton3.setText("Copy");
-			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton3.setPreferredSize(new Dimension(70, 30));
 			jButton3.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -357,6 +365,10 @@ public class PageListDialog extends JDialog {
 					String strPageId = ((JLabel)((List)compList.get(iRow)).get(0)).getText();
 					String strPageName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					PageDialog dialog = new PageDialog(PageListDialog.this, strPageId, strPageName, CommonConstant.MODE_COPY);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					setVisible(false);
 					Utils.addWindow(dialog);
 					dialog.show();
@@ -385,10 +397,10 @@ public class PageListDialog extends JDialog {
 	private JButton getJButton4() {
 		if (jButton4 == null) {
 			jButton4 = new JButton();
-			jButton4.setBounds(new java.awt.Rectangle(697,0,70,20));
+			jButton4.setBounds(new Rectangle(727, 0, 70, 20));
 			jButton4.setPreferredSize(new Dimension(70, 30));
 			jButton4.setText("Del");
-			jButton4.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton4.setFont(new Font("Dialog", FONT.BOLD, 10));
 			jButton4.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					int iResult = JOptionPane.showConfirmDialog(PageListDialog.this, "Do you want to delete?");

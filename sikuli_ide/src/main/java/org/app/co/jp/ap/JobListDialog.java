@@ -98,7 +98,7 @@ public class JobListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new Rectangle(690, 75, 85, 20));
+			titleDeal.setBounds(new Rectangle(670, 73, 105, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -107,12 +107,12 @@ public class JobListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titleScriptName = new JLabel();
-			titleScriptName.setBounds(new Rectangle(110, 75, 260, 20));
+			titleScriptName.setBounds(new Rectangle(110, 73, 260, 20));
 			titleScriptName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleScriptName.setBackground(new Color(255,204,204));
 			titleScriptName.setText("Script Name");
 			titleScriptId = new JLabel();
-			titleScriptId.setBounds(new java.awt.Rectangle(11,75,100,22));
+			titleScriptId.setBounds(new Rectangle(11, 73, 100, 22));
 			titleScriptId.setHorizontalAlignment(SwingConstants.CENTER);
 			titleScriptId.setText("Script Id");
 			lblJobSelect = new JLabel();
@@ -213,7 +213,7 @@ public class JobListDialog extends JDialog {
 				}
 			});
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(130, 30));
 			preButton.setLocation(new java.awt.Point(10,399));
 		}
 		return preButton;
@@ -232,9 +232,9 @@ public class JobListDialog extends JDialog {
 					setControl();
 				}
 			});
-			afterButton.setLocation(new java.awt.Point(690,403));
+			afterButton.setLocation(new Point(650, 403));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(130, 30));
 		}
 		return afterButton;
 	}
@@ -299,10 +299,10 @@ public class JobListDialog extends JDialog {
 	private JButton getBtnCancel() {
 		if (btnCancel == null) {
 			btnCancel = new JButton();
-			btnCancel.setBounds(new Rectangle(687, 0, 80, 20));
+			btnCancel.setBounds(new Rectangle(667, 0, 100, 20));
 			btnCancel.setPreferredSize(new Dimension(70, 30));
 			btnCancel.setText("Cancel");
-			btnCancel.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnCancel.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnCancel.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -348,7 +348,7 @@ public class JobListDialog extends JDialog {
 			titleJobTime.setText("Time");
 			titleJobTime.setHorizontalAlignment(SwingConstants.CENTER);
 			titleJobTime.setBounds(new Rectangle(11, 75, 100, 22));
-			titleJobTime.setBounds(370, 75, 180, 22);
+			titleJobTime.setBounds(370, 73, 180, 22);
 		}
 		return titleJobTime;
 	}
@@ -358,7 +358,7 @@ public class JobListDialog extends JDialog {
 			timeJobStatus.setText("Status");
 			timeJobStatus.setHorizontalAlignment(SwingConstants.CENTER);
 			timeJobStatus.setBounds(new Rectangle(11, 75, 100, 22));
-			timeJobStatus.setBounds(550, 75, 140, 22);
+			timeJobStatus.setBounds(550, 73, 120, 22);
 		}
 		return timeJobStatus;
 	}
@@ -376,7 +376,7 @@ public class JobListDialog extends JDialog {
 			statusInit = new JLabel();
 			statusInit.setText("JLabel");
 			statusInit.setBounds(new Rectangle(100, 0, 260, 20));
-			statusInit.setBounds(540, 0, 140, 20);
+			statusInit.setBounds(540, 0, 120, 20);
 		}
 		return statusInit;
 	}

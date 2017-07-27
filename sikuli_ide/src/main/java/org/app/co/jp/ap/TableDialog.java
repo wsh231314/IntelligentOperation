@@ -10,6 +10,7 @@ import org.app.co.jp.util.bean.SelectBean;
 import javax.swing.*;
 import java.io.File;
 import java.util.*;
+import java.awt.Rectangle;
 
 public class TableDialog extends JDialog {
 
@@ -216,7 +217,7 @@ public class TableDialog extends JDialog {
 	private JTextField getSearchPatternName() {
 		if (tableName == null) {
 			tableName = new JTextField();
-			tableName.setBounds(new java.awt.Rectangle(100,40,200,20));
+			tableName.setBounds(new Rectangle(100, 40, 400, 20));
 		}
 		return tableName;
 	}
@@ -292,7 +293,7 @@ public class TableDialog extends JDialog {
 	private JButton getBtnConfirm() {
 		if (btnConfirm == null) {
 			btnConfirm = new JButton();
-			btnConfirm.setBounds(new java.awt.Rectangle(310,40,70,20));
+			btnConfirm.setBounds(new Rectangle(510, 40, 100, 20));
 			btnConfirm.setText("Confirm");
 			btnConfirm.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -344,7 +345,7 @@ public class TableDialog extends JDialog {
 			jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 			jLabel1.setText("Fixed value");
 			columnLbl = new JLabel();
-			columnLbl.setBounds(new java.awt.Rectangle(0,10,300,20));
+			columnLbl.setBounds(new Rectangle(10, 10, 300, 20));
 			columnLbl.setText("Please select the column");
 			tablePanel = new JPanel();
 			tablePanel.setLayout(null);
@@ -657,6 +658,10 @@ public class TableDialog extends JDialog {
 							selectMap.put("COLUMN_LENGTH", txtLength.getText().trim());
 						}
 						TableInfoDialog dialog = new TableInfoDialog(strTableId, strTableName, txtTableComment.getText(), propertyMap);
+				        // --------------------------------------------------------
+				        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+				        // -------------------------------------------------------
+						dialog.setLocationRelativeTo(null);
 						dialog.setModal(true);
 						dialog.show();
 					} catch (Exception e1) {

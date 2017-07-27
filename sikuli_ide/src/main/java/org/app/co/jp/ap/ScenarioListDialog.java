@@ -75,7 +75,7 @@ public class ScenarioListDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800,600));
+        this.setSize(new Dimension(820, 600));
         this.setContentPane(getJPanel());
 
         List<String> title = new ArrayList<String>();
@@ -109,7 +109,7 @@ public class ScenarioListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new java.awt.Rectangle(570,75,210,20));
+			titleDeal.setBounds(new Rectangle(540, 73, 255, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -118,16 +118,16 @@ public class ScenarioListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titleScenarioName = new JLabel();
-			titleScenarioName.setBounds(new Rectangle(110, 75, 460, 20));
+			titleScenarioName.setBounds(new Rectangle(110, 73, 430, 20));
 			titleScenarioName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleScenarioName.setBackground(new Color(255,204,204));
 			titleScenarioName.setText("Scenario Name");
 			titleScenarioId = new JLabel();
-			titleScenarioId.setBounds(new java.awt.Rectangle(11,75,100,22));
+			titleScenarioId.setBounds(new Rectangle(11, 73, 100, 22));
 			titleScenarioId.setHorizontalAlignment(SwingConstants.CENTER);
 			titleScenarioId.setText("Scenario Id");
 			lblScenarioSelect = new JLabel();
-			lblScenarioSelect.setBounds(new Rectangle(10, 40, 100, 20));
+			lblScenarioSelect.setBounds(new Rectangle(10, 40, 130, 20));
 			lblScenarioSelect.setText("Scenario Name");
 			jLabel = new JLabel();
 			jLabel.setBounds(new Rectangle(10, 10, 500, 24));
@@ -159,14 +159,14 @@ public class ScenarioListDialog extends JDialog {
 	private JPanel getDetailPanel() {
 		if (detailPanel == null) {
 			scenarioNameInit = new JLabel();
-			scenarioNameInit.setBounds(new Rectangle(100, 0, 457, 20));
+			scenarioNameInit.setBounds(new Rectangle(100, 0, 427, 20));
 			scenarioNameInit.setText("JLabel");
 			scenarioIdInit = new JLabel();
 			scenarioIdInit.setHorizontalAlignment(SwingConstants.CENTER);
 			scenarioIdInit.setBounds(new java.awt.Rectangle(3,0,100,20));
 			scenarioIdInit.setText("JLabel");
 			detailPanel = new JPanel();
-			detailPanel.setBounds(new java.awt.Rectangle(10,95,770,300));
+			detailPanel.setBounds(new Rectangle(10, 95, 790, 300));
 			detailPanel.setLayout(null);
 			detailPanel.add(scenarioIdInit, null);
 			detailPanel.add(scenarioNameInit, null);
@@ -187,7 +187,7 @@ public class ScenarioListDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(690,500));
+			jButton.setLocation(new Point(680, 500));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("deprecation")
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -221,7 +221,7 @@ public class ScenarioListDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(10,399));
 		}
 		return preButton;
@@ -235,9 +235,9 @@ public class ScenarioListDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(690,403));
+			afterButton.setLocation(new Point(680, 403));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}
@@ -251,7 +251,7 @@ public class ScenarioListDialog extends JDialog {
 		if (scenarioSelect == null) {
 			scenarioSelect = new JButton();
 			scenarioSelect.setText("Search");
-			scenarioSelect.setLocation(new Point(260, 40));
+			scenarioSelect.setLocation(new Point(280, 40));
 			scenarioSelect.setSize(new Dimension(110,20));
 			scenarioSelect.setPreferredSize(new Dimension(70, 30));
 			scenarioSelect.addActionListener(new java.awt.event.ActionListener() {
@@ -276,7 +276,7 @@ public class ScenarioListDialog extends JDialog {
 	private JTextField getSearchScenarioName() {
 		if (searchScenarioName == null) {
 			searchScenarioName = new JTextField();
-			searchScenarioName.setBounds(new Rectangle(120, 40, 130, 20));
+			searchScenarioName.setBounds(new Rectangle(140, 40, 130, 20));
 		}
 		return searchScenarioName;
 	}
@@ -289,13 +289,17 @@ public class ScenarioListDialog extends JDialog {
 	private JButton getBtnAddScenario() {
 		if (btnAddScenario == null) {
 			btnAddScenario = new JButton();
-			btnAddScenario.setBounds(new java.awt.Rectangle(670,40,110,20));
+			btnAddScenario.setBounds(new Rectangle(640, 40, 160, 20));
 			btnAddScenario.setText("Add Scenario");
 			btnAddScenario.setPreferredSize(new Dimension(70, 30));
 			btnAddScenario.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("deprecation")
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					ScenarioDialog dialog = new ScenarioDialog(ScenarioListDialog.this, "", "", CommonConstant.MODE_NEW);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					
 					Utils.addWindow(dialog);
 					hide();
@@ -315,9 +319,9 @@ public class ScenarioListDialog extends JDialog {
 	private JButton getBtnDetailInit() {
 		if (btnDetailInit == null) {
 			btnDetailInit = new JButton();
-			btnDetailInit.setBounds(new java.awt.Rectangle(557,0,70,20));
+			btnDetailInit.setBounds(new Rectangle(527, 0, 100, 20));
 			btnDetailInit.setText("Detail");
-			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDetailInit.setPreferredSize(new Dimension(70, 30));
 			btnDetailInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings({ "rawtypes", "deprecation" })
@@ -333,6 +337,10 @@ public class ScenarioListDialog extends JDialog {
 					String strScenarioName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					
 					ScenarioDialog dialog = new ScenarioDialog(ScenarioListDialog.this, strScenarioId, strScenarioName, CommonConstant.MODE_UPDATE);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					
 					Utils.addWindow(dialog);
 					hide();
@@ -352,9 +360,9 @@ public class ScenarioListDialog extends JDialog {
 	private JButton getBtnCopyInit() {
 		if (btnCopyInit == null) {
 			btnCopyInit = new JButton();
-			btnCopyInit.setBounds(new java.awt.Rectangle(627,0,70,20));
+			btnCopyInit.setBounds(new Rectangle(627, 0, 90, 20));
 			btnCopyInit.setText("Copy");
-			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnCopyInit.setPreferredSize(new Dimension(70, 30));
 			btnCopyInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings({ "rawtypes", "deprecation" })
@@ -371,6 +379,10 @@ public class ScenarioListDialog extends JDialog {
 					String strScenarioName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					
 					ScenarioDialog dialog = new ScenarioDialog(ScenarioListDialog.this, strScenarioId, strScenarioName, CommonConstant.MODE_COPY);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					
 					Utils.addWindow(dialog);
 					hide();
@@ -402,10 +414,10 @@ public class ScenarioListDialog extends JDialog {
 	private JButton getBtnDelDetail() {
 		if (btnDelDetail == null) {
 			btnDelDetail = new JButton();
-			btnDelDetail.setBounds(new java.awt.Rectangle(697,0,70,20));
+			btnDelDetail.setBounds(new Rectangle(717, 0, 70, 20));
 			btnDelDetail.setPreferredSize(new Dimension(70, 30));
 			btnDelDetail.setText("Del");
-			btnDelDetail.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDelDetail.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDelDetail.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
 				public void actionPerformed(java.awt.event.ActionEvent e) {

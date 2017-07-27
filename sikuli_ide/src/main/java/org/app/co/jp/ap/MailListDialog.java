@@ -101,10 +101,10 @@ public class MailListDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800, 800));
+        this.setSize(new Dimension(870, 830));
         
         if (!blnSetMailFlg) {
-        	this.setSize(new Dimension(800, 565));
+        	this.setSize(new Dimension(870, 565));
         }
         
         
@@ -160,7 +160,7 @@ public class MailListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new java.awt.Rectangle(570,75,210,20));
+			titleDeal.setBounds(new Rectangle(570, 73, 260, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -169,19 +169,19 @@ public class MailListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titleMailName = new JLabel();
-			titleMailName.setBounds(new Rectangle(110, 75, 360, 20));
+			titleMailName.setBounds(new Rectangle(110, 73, 360, 20));
 			titleMailName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleMailName.setBackground(new Color(255,204,204));
 			titleMailName.setText("Mail Name");
 			titleMail = new JLabel();
-			titleMail.setBounds(new java.awt.Rectangle(11,75,100,22));
+			titleMail.setBounds(new Rectangle(11, 73, 100, 22));
 			titleMail.setHorizontalAlignment(SwingConstants.CENTER);
 			titleMail.setText("Mail ID");
 			lblMailSelect = new JLabel();
-			lblMailSelect.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblMailSelect.setBounds(new Rectangle(10, 40, 120, 20));
 			lblMailSelect.setText("Mail Name");
 			jLabel = new JLabel();
-			jLabel.setBounds(new java.awt.Rectangle(10,10,205,24));
+			jLabel.setBounds(new Rectangle(10, 10, 400, 24));
 			jLabel.setText("View the Mail which has been defined");
 			jPanel = new JPanel();
 			jPanel.setLayout(null);
@@ -204,7 +204,7 @@ public class MailListDialog extends JDialog {
 			titleMailSelect.setHorizontalAlignment(SwingConstants.CENTER);
 			titleMailSelect.setBounds(new Rectangle(570, 75, 210, 20));
 			titleMailSelect.setBackground(new Color(255, 204, 204));
-			titleMailSelect.setBounds(470, 75, 100, 20);
+			titleMailSelect.setBounds(470, 73, 100, 20);
 			jPanel.add(titleMailSelect);
 			jPanel.add(getScriptPanel());
 			jPanel.add(getBtnUpdate());
@@ -227,7 +227,7 @@ public class MailListDialog extends JDialog {
 			mailIdInit.setBounds(new java.awt.Rectangle(3,0,100,20));
 			mailIdInit.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new Rectangle(10, 95, 770, 350));
+			excelSheet.setBounds(new Rectangle(10, 95, 830, 350));
 			excelSheet.setLayout(null);
 			excelSheet.add(mailIdInit, null);
 			excelSheet.add(mailNameInit, null);
@@ -249,7 +249,7 @@ public class MailListDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new Point(690, 490));
+			jButton.setLocation(new Point(710, 490));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					setVisible(false);
@@ -268,7 +268,7 @@ public class MailListDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(130, 30));
 			preButton.setLocation(new Point(10, 450));
 		}
 		return preButton;
@@ -282,9 +282,9 @@ public class MailListDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new Point(690, 450));
+			afterButton.setLocation(new Point(710, 450));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(130, 30));
 		}
 		return afterButton;
 	}
@@ -298,7 +298,7 @@ public class MailListDialog extends JDialog {
 		if (btnMailSelect == null) {
 			btnMailSelect = new JButton();
 			btnMailSelect.setText("Search");
-			btnMailSelect.setLocation(new java.awt.Point(236,40));
+			btnMailSelect.setLocation(new Point(266, 40));
 			btnMailSelect.setSize(new Dimension(110,20));
 			btnMailSelect.setPreferredSize(new Dimension(70, 30));
 			btnMailSelect.addActionListener(new java.awt.event.ActionListener() {
@@ -323,7 +323,7 @@ public class MailListDialog extends JDialog {
 	private JTextField getSearchMailName() {
 		if (searchMailName == null) {
 			searchMailName = new JTextField();
-			searchMailName.setBounds(new java.awt.Rectangle(100,40,130,20));
+			searchMailName.setBounds(new Rectangle(130, 40, 130, 20));
 		}
 		return searchMailName;
 	}
@@ -336,12 +336,16 @@ public class MailListDialog extends JDialog {
 	private JButton getBtnAddMail() {
 		if (btnAddMail == null) {
 			btnAddMail = new JButton();
-			btnAddMail.setBounds(new java.awt.Rectangle(670,40,110,20));
+			btnAddMail.setBounds(new Rectangle(730, 40, 110, 20));
 			btnAddMail.setText("Add Mail");
 			btnAddMail.setPreferredSize(new Dimension(70, 30));
 			btnAddMail.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					MailDialog dialog = new MailDialog("", "", CommonConstant.MODE_NEW);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					dialog.setModal(true);
 					dialog.setVisible(true);
 					
@@ -360,9 +364,9 @@ public class MailListDialog extends JDialog {
 	private JButton getBtnDetailInit() {
 		if (btnDetailInit == null) {
 			btnDetailInit = new JButton();
-			btnDetailInit.setBounds(new java.awt.Rectangle(557,0,70,20));
+			btnDetailInit.setBounds(new Rectangle(557, 0, 95, 20));
 			btnDetailInit.setText("Detail");
-			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDetailInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDetailInit.setPreferredSize(new Dimension(70, 30));
 			btnDetailInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
@@ -377,6 +381,10 @@ public class MailListDialog extends JDialog {
 					String strMailId = ((JLabel)((List)compList.get(iRow)).get(0)).getText();
 					String strMailName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					MailDialog dialog = new MailDialog(strMailId, strMailName, CommonConstant.MODE_UPDATE);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					
 					int iPageNo = grid.getPageNo();
 					
@@ -399,9 +407,9 @@ public class MailListDialog extends JDialog {
 	private JButton getBtnCopyInit() {
 		if (btnCopyInit == null) {
 			btnCopyInit = new JButton();
-			btnCopyInit.setBounds(new java.awt.Rectangle(627,0,70,20));
+			btnCopyInit.setBounds(new Rectangle(657, 0, 90, 20));
 			btnCopyInit.setText("Copy");
-			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnCopyInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnCopyInit.setPreferredSize(new Dimension(70, 30));
 			btnCopyInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
@@ -416,6 +424,10 @@ public class MailListDialog extends JDialog {
 					String strMailId = ((JLabel)((List)compList.get(iRow)).get(0)).getText();
 					String strMailName = ((JLabel)((List)compList.get(iRow)).get(1)).getText();
 					MailDialog dialog = new MailDialog(strMailId, strMailName, CommonConstant.MODE_COPY);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					
 					dialog.setModal(true);
 					dialog.setVisible(true);
@@ -445,10 +457,10 @@ public class MailListDialog extends JDialog {
 	private JButton getBtnDelInit() {
 		if (btnDelInit == null) {
 			btnDelInit = new JButton();
-			btnDelInit.setBounds(new java.awt.Rectangle(697,0,70,20));
+			btnDelInit.setBounds(new Rectangle(752, 0, 70, 20));
 			btnDelInit.setPreferredSize(new Dimension(70, 30));
 			btnDelInit.setText("Del");
-			btnDelInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnDelInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnDelInit.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -500,7 +512,7 @@ public class MailListDialog extends JDialog {
 	private JLabel getLblScriptId() {
 		if (lblScriptId == null) {
 			lblScriptId = new JLabel();
-			lblScriptId.setBounds(10, 30, 50, 15);
+			lblScriptId.setBounds(10, 30, 100, 22);
 			lblScriptId.setText("Script ID");
 		}
 		return lblScriptId;
@@ -508,7 +520,7 @@ public class MailListDialog extends JDialog {
 	private JLabel getLblScriptName() {
 		if (lblScriptName == null) {
 			lblScriptName = new JLabel();
-			lblScriptName.setBounds(175, 30, 60, 15);
+			lblScriptName.setBounds(225, 30, 110, 22);
 			lblScriptName.setText("Script Name");
 		}
 		return lblScriptName;
@@ -517,7 +529,7 @@ public class MailListDialog extends JDialog {
 		if (scriptPanel == null) {
 			scriptPanel = new JPanel();
 			scriptPanel.setBorder(new TitledBorder(null, "Script Information", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-			scriptPanel.setBounds(10, 540, 650, 210);
+			scriptPanel.setBounds(10, 540, 700, 240);
 			scriptPanel.setLayout(null);
 			scriptPanel.add(getLblScriptName());
 			scriptPanel.add(getLblScriptId());
@@ -532,7 +544,7 @@ public class MailListDialog extends JDialog {
 		if (endMailPanel == null) {
 			endMailPanel = new JPanel();
 			endMailPanel.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "End Mail", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-			endMailPanel.setBounds(5, 65, 635, 60);
+			endMailPanel.setBounds(5, 60, 675, 80);
 			endMailPanel.setLayout(null);
 			endMailPanel.add(getLblMailId());
 			endMailPanel.add(getTxtEndMailId());
@@ -548,7 +560,7 @@ public class MailListDialog extends JDialog {
 		if (txtScriptId == null) {
 			txtScriptId = new JTextField();
 			txtScriptId.setEditable(false);
-			txtScriptId.setBounds(65, 30, 100, 15);
+			txtScriptId.setBounds(115, 30, 100, 22);
 			txtScriptId.setColumns(10);
 		}
 		return txtScriptId;
@@ -558,7 +570,7 @@ public class MailListDialog extends JDialog {
 			txtScriptName = new JTextField();
 			txtScriptName.setEditable(false);
 			txtScriptName.setColumns(10);
-			txtScriptName.setBounds(240, 30, 395, 15);
+			txtScriptName.setBounds(340, 30, 355, 22);
 		}
 		return txtScriptName;
 	}
@@ -566,7 +578,7 @@ public class MailListDialog extends JDialog {
 		if (lblMailId == null) {
 			lblMailId = new JLabel();
 			lblMailId.setText("Mail ID");
-			lblMailId.setBounds(10, 21, 50, 15);
+			lblMailId.setBounds(10, 21, 80, 22);
 		}
 		return lblMailId;
 	}
@@ -575,7 +587,7 @@ public class MailListDialog extends JDialog {
 			txtEndMailId = new JTextField();
 			txtEndMailId.setEditable(false);
 			txtEndMailId.setColumns(10);
-			txtEndMailId.setBounds(65, 21, 90, 15);
+			txtEndMailId.setBounds(95, 21, 90, 22);
 		}
 		return txtEndMailId;
 	}
@@ -583,7 +595,7 @@ public class MailListDialog extends JDialog {
 		if (lblEndMailName == null) {
 			lblEndMailName = new JLabel();
 			lblEndMailName.setText("Mail Name");
-			lblEndMailName.setBounds(170, 21, 60, 15);
+			lblEndMailName.setBounds(200, 21, 100, 22);
 		}
 		return lblEndMailName;
 	}
@@ -592,7 +604,7 @@ public class MailListDialog extends JDialog {
 			txtEndMailName = new JTextField();
 			txtEndMailName.setEditable(false);
 			txtEndMailName.setColumns(10);
-			txtEndMailName.setBounds(235, 21, 395, 15);
+			txtEndMailName.setBounds(295, 21, 375, 22);
 		}
 		return txtEndMailName;
 	}
@@ -633,7 +645,7 @@ public class MailListDialog extends JDialog {
 					
 				}
 			});
-			btnEndMailSet.setBounds(10, 39, 60, 15);
+			btnEndMailSet.setBounds(10, 49, 70, 22);
 		}
 		return btnEndMailSet;
 	}
@@ -663,7 +675,7 @@ public class MailListDialog extends JDialog {
 
 				}
 			});
-			btnEndMailDetail.setBounds(80, 39, 60, 15);
+			btnEndMailDetail.setBounds(90, 49, 100, 22);
 		}
 		return btnEndMailDetail;
 	}
@@ -680,7 +692,7 @@ public class MailListDialog extends JDialog {
 					}
 				}
 			});
-			btnEndmailClear.setBounds(150, 39, 60, 15);
+			btnEndmailClear.setBounds(200, 49, 100, 22);
 		}
 		return btnEndmailClear;
 	}
@@ -689,7 +701,7 @@ public class MailListDialog extends JDialog {
 			errorMailPanel = new JPanel();
 			errorMailPanel.setLayout(null);
 			errorMailPanel.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Error Mail", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-			errorMailPanel.setBounds(5, 140, 635, 60);
+			errorMailPanel.setBounds(5, 140, 675, 80);
 			errorMailPanel.add(getLabel());
 			errorMailPanel.add(getTxtErrorMailId());
 			errorMailPanel.add(getLabel_2());
@@ -704,7 +716,7 @@ public class MailListDialog extends JDialog {
 		if (label == null) {
 			label = new JLabel();
 			label.setText("Mail ID");
-			label.setBounds(10, 21, 50, 15);
+			label.setBounds(10, 21, 80, 22);
 		}
 		return label;
 	}
@@ -713,7 +725,7 @@ public class MailListDialog extends JDialog {
 			txtErrorMailId = new JTextField();
 			txtErrorMailId.setEditable(false);
 			txtErrorMailId.setColumns(10);
-			txtErrorMailId.setBounds(65, 21, 90, 15);
+			txtErrorMailId.setBounds(95, 21, 90, 22);
 		}
 		return txtErrorMailId;
 	}
@@ -721,7 +733,7 @@ public class MailListDialog extends JDialog {
 		if (label_2 == null) {
 			label_2 = new JLabel();
 			label_2.setText("Script Name");
-			label_2.setBounds(170, 21, 60, 15);
+			label_2.setBounds(200, 21, 100, 22);
 		}
 		return label_2;
 	}
@@ -730,7 +742,7 @@ public class MailListDialog extends JDialog {
 			txtErrorMailName = new JTextField();
 			txtErrorMailName.setEditable(false);
 			txtErrorMailName.setColumns(10);
-			txtErrorMailName.setBounds(235, 21, 395, 15);
+			txtErrorMailName.setBounds(295, 21, 375, 22);
 		}
 		return txtErrorMailName;
 	}
@@ -771,7 +783,7 @@ public class MailListDialog extends JDialog {
 					
 				}
 			});
-			btnErrorMailSet.setBounds(10, 39, 60, 15);
+			btnErrorMailSet.setBounds(10, 49, 70, 22);
 		}
 		return btnErrorMailSet;
 	}
@@ -801,7 +813,7 @@ public class MailListDialog extends JDialog {
 
 				}
 			});
-			btnErrorMailDetail.setBounds(80, 39, 60, 15);
+			btnErrorMailDetail.setBounds(90, 49, 100, 22);
 		}
 		return btnErrorMailDetail;
 	}
@@ -818,7 +830,7 @@ public class MailListDialog extends JDialog {
 					}
 				}
 			});
-			btnErrorMailClear.setBounds(150, 39, 60, 15);
+			btnErrorMailClear.setBounds(200, 49, 100, 22);
 		}
 		return btnErrorMailClear;
 	}
@@ -840,7 +852,7 @@ public class MailListDialog extends JDialog {
 			btnUpdate.setText("Update");
 			btnUpdate.setSize(new Dimension(90, 30));
 			btnUpdate.setLocation(new Point(690, 491));
-			btnUpdate.setBounds(690, 710, 90, 30);
+			btnUpdate.setBounds(710, 745, 130, 30);
 		}
 		return btnUpdate;
 	}

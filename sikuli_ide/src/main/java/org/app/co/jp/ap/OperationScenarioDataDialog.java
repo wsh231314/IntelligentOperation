@@ -330,7 +330,7 @@ public class OperationScenarioDataDialog extends JDialog {
 	private JButton getBtnConfirm() {
 		if (btnConfirm == null) {
 			btnConfirm = new JButton();
-			btnConfirm.setBounds(new java.awt.Rectangle(310,40,70,20));
+			btnConfirm.setBounds(new Rectangle(310, 40, 100, 20));
 			btnConfirm.setText("Confirm");
 			btnConfirm.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -384,7 +384,7 @@ public class OperationScenarioDataDialog extends JDialog {
 			jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 			jLabel1.setText("Fixed value");
 			columnLbl = new JLabel();
-			columnLbl.setBounds(new java.awt.Rectangle(0,10,300,20));
+			columnLbl.setBounds(new Rectangle(10, 10, 300, 20));
 			columnLbl.setText("Please select the field");
 			tablePanel = new JPanel();
 			tablePanel.setLayout(null);
@@ -632,7 +632,11 @@ public class OperationScenarioDataDialog extends JDialog {
 						}
 						
 						OperationInfoListDialog dialog = new OperationInfoListDialog(OperationScenarioDataDialog.this, strDataId, lblScenarioName.getText(), txtDataComment.getText(), propertyMap);
-						
+
+				        // --------------------------------------------------------
+				        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+				        // -------------------------------------------------------
+						dialog.setLocationRelativeTo(null);
 						setVisible(false);
 						Utils.addWindow(dialog);
 						dialog.setVisible(true);

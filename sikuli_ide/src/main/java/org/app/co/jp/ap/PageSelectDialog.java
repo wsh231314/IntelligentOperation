@@ -147,7 +147,7 @@ public class PageSelectDialog extends JDialog {
 			titleFieldId.setBackground(new Color(255,160,204));
 			titleFieldId.setText("Field ID");
 			lblPageName = new JLabel();
-			lblPageName.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblPageName.setBounds(new Rectangle(10, 40, 120, 20));
 			lblPageName.setText("Page Name");
 			jLabel = new JLabel();
 			jLabel.setBounds(new java.awt.Rectangle(10,10,500,24));
@@ -214,7 +214,7 @@ public class PageSelectDialog extends JDialog {
 			btnSelect.setText("Select");
 			btnSelect.setSize(new Dimension(90, 30));
 			btnSelect.setLocation(new Point(10, 480));
-			btnSelect.setBounds(10, 520, 90, 30);
+			btnSelect.setBounds(10, 520, 120, 30);
 			jPanel.add(btnSelect);
 			
 			titleSelect = new JLabel();
@@ -231,7 +231,7 @@ public class PageSelectDialog extends JDialog {
 					searchDetailList();
 				}
 			});
-			pageIdSelect.setBounds(120, 40, 300, 20);
+			pageIdSelect.setBounds(140, 40, 300, 20);
 			jPanel.add(pageIdSelect);
 		}
 		return jPanel;
@@ -295,7 +295,7 @@ public class PageSelectDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(690,520));
+			jButton.setLocation(new Point(660, 520));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					setVisible(false);
@@ -329,7 +329,7 @@ public class PageSelectDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(10,480));
 		}
 		return preButton;
@@ -343,9 +343,9 @@ public class PageSelectDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(690,480));
+			afterButton.setLocation(new Point(660, 480));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}

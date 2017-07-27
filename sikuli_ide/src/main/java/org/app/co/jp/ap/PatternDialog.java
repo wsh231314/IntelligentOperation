@@ -76,7 +76,7 @@ public class PatternDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(800,600));
+        this.setSize(new Dimension(850, 600));
         this.setContentPane(getJPanel());
 
         List title = new ArrayList();
@@ -128,15 +128,15 @@ public class PatternDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			patternId = new JLabel();
-			patternId.setBounds(new java.awt.Rectangle(95,40,95,20));
+			patternId.setBounds(new Rectangle(165, 40, 95, 20));
 			patternId.setText("");
 			titleTableComment = new JLabel();
-			titleTableComment.setBounds(new java.awt.Rectangle(270,75,240,20));
+			titleTableComment.setBounds(new Rectangle(270, 73, 240, 20));
 			titleTableComment.setHorizontalAlignment(SwingConstants.CENTER);
 			titleTableComment.setText("Comment");
 			titleTableComment.setBackground(new Color(255, 204, 204));
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new java.awt.Rectangle(580,75,200,20));
+			titleDeal.setBounds(new Rectangle(580, 73, 200, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -145,25 +145,25 @@ public class PatternDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("");
 			titleRecordNum = new JLabel();
-			titleRecordNum.setBounds(new java.awt.Rectangle(510,75,70,20));
+			titleRecordNum.setBounds(new Rectangle(510, 73, 70, 20));
 			titleRecordNum.setHorizontalAlignment(SwingConstants.CENTER);
 			titleRecordNum.setBackground(new Color(255,204,204));
 			titleRecordNum.setText("Rec num");
 			titleTableName = new JLabel();
-			titleTableName.setBounds(new java.awt.Rectangle(100,75,170,20));
+			titleTableName.setBounds(new Rectangle(100, 73, 170, 20));
 			titleTableName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleTableName.setBackground(new Color(255,204,204));
 			titleTableName.setText("Table");
 			titleTableId = new JLabel();
-			titleTableId.setBounds(new java.awt.Rectangle(10,75,90,20));
+			titleTableId.setBounds(new Rectangle(10, 73, 90, 20));
 			titleTableId.setHorizontalAlignment(SwingConstants.CENTER);
 			titleTableId.setBackground(new Color(255,160,204));
 			titleTableId.setText("Table ID");
 			lblExcelSelect = new JLabel();
-			lblExcelSelect.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblExcelSelect.setBounds(new Rectangle(10, 40, 180, 20));
 			lblExcelSelect.setText("Pattern Comment");
 			jLabel = new JLabel();
-			jLabel.setBounds(new java.awt.Rectangle(10,10,500,24));
+			jLabel.setBounds(new Rectangle(10, 10, 700, 24));
 			jLabel.setText("Create the table's definitions which used to create data in this pattern.");
 			jPanel = new JPanel();
 			jPanel.setLayout(null);
@@ -209,7 +209,7 @@ public class PatternDialog extends JDialog {
 			tableIdInit.setBounds(new java.awt.Rectangle(3,0,87,20));
 			tableIdInit.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new java.awt.Rectangle(10,95,770,383));
+			excelSheet.setBounds(new Rectangle(10, 95, 815, 383));
 			excelSheet.setLayout(null);
 			excelSheet.add(tableIdInit, null);
 			excelSheet.add(tableNameInit, null);
@@ -231,7 +231,7 @@ public class PatternDialog extends JDialog {
 		if (btnExcelCreate == null) {
 			btnExcelCreate = new JButton();
 			btnExcelCreate.setText("Confirm");
-			btnExcelCreate.setSize(new Dimension(90,30));
+			btnExcelCreate.setSize(new Dimension(110, 30));
 			btnExcelCreate.setLocation(new java.awt.Point(10,520));
 			btnExcelCreate.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -284,8 +284,8 @@ public class PatternDialog extends JDialog {
 		if (jButton == null) {
 			jButton = new JButton();
 			jButton.setText("Close");
-			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(690,520));
+			jButton.setSize(new Dimension(110, 30));
+			jButton.setLocation(new Point(705, 520));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					hide();
@@ -316,7 +316,7 @@ public class PatternDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(10,480));
 		}
 		return preButton;
@@ -330,9 +330,9 @@ public class PatternDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(690,480));
+			afterButton.setLocation(new Point(705, 480));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}
@@ -345,7 +345,7 @@ public class PatternDialog extends JDialog {
 	private JTextField getSearchPatternName() {
 		if (patternName == null) {
 			patternName = new JTextField();
-			patternName.setBounds(new java.awt.Rectangle(195,40,462,20));
+			patternName.setBounds(new Rectangle(260, 40, 430, 20));
 		}
 		return patternName;
 	}
@@ -358,9 +358,9 @@ public class PatternDialog extends JDialog {
 	private JButton getJButton2() {
 		if (jButton2 == null) {
 			jButton2 = new JButton();
-			jButton2.setBounds(new java.awt.Rectangle(567,0,70,20));
+			jButton2.setBounds(new Rectangle(567, 0, 95, 20));
 			jButton2.setText("Detail");
-			jButton2.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton2.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton2.setPreferredSize(new Dimension(70, 30));
 			jButton2.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -379,6 +379,10 @@ public class PatternDialog extends JDialog {
 					Map valueMap = (Map)grid.getValueList().get(dateRow);
 					// 
 					TableDialog dialog = new TableDialog(strTableId, strTableName, CommonConstant.MODE_UPDATE);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					String dealFlg = (String)valueMap.get("DEAL_FLG");
 					if (CommonConstant.DEAL_DEFAULT.equals(dealFlg)) {
 						TableDao dao = new TableDao();
@@ -415,9 +419,9 @@ public class PatternDialog extends JDialog {
 	private JButton getJButton3() {
 		if (jButton3 == null) {
 			jButton3 = new JButton();
-			jButton3.setBounds(new java.awt.Rectangle(637,0,70,20));
+			jButton3.setBounds(new Rectangle(662, 0, 85, 20));
 			jButton3.setText("Copy");
-			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton3.setPreferredSize(new Dimension(70, 30));
 			jButton3.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -436,6 +440,10 @@ public class PatternDialog extends JDialog {
 					Map valueMap = (Map)grid.getValueList().get(dateRow);
 					// 
 					TableDialog dialog = new TableDialog(strTableId, strTableName, CommonConstant.MODE_COPY);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					String dealFlg = (String)valueMap.get("DEAL_FLG");
 					if (CommonConstant.DEAL_DEFAULT.equals(dealFlg)) {
 						TableDao dao = new TableDao();
@@ -515,10 +523,10 @@ public class PatternDialog extends JDialog {
 	private JButton getJButton1() {
 		if (jButton1 == null) {
 			jButton1 = new JButton();
-			jButton1.setBounds(new java.awt.Rectangle(707,0,60,20));
+			jButton1.setBounds(new Rectangle(747, 0, 65, 20));
 			jButton1.setPreferredSize(new Dimension(70, 30));
 			jButton1.setText("Del");
-			jButton1.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton1.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton1.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					int iResult = JOptionPane.showConfirmDialog(PatternDialog.this, "Do you want to delete?");
@@ -558,11 +566,15 @@ public class PatternDialog extends JDialog {
 	private JButton getAddRecord() {
 		if (addRecord == null) {
 			addRecord = new JButton();
-			addRecord.setBounds(new java.awt.Rectangle(670,40,110,20));
+			addRecord.setBounds(new Rectangle(710, 40, 110, 20));
 			addRecord.setText("Add");
 			addRecord.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					TableDialog dialog = new TableDialog("", "", CommonConstant.MODE_NEW);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					dialog.setTableMap(getTableMap());
 					dialog.setModal(true);
 					dialog.show();

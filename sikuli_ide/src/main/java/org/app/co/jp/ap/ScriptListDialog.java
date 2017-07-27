@@ -87,7 +87,7 @@ public class ScriptListDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new Dimension(900, 600));
+        this.setSize(new Dimension(1000, 600));
         this.setContentPane(getJPanel());
 
         List<String> title = new ArrayList<String>();
@@ -127,12 +127,12 @@ public class ScriptListDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			titleScriptFile = new JLabel();
-			titleScriptFile.setBounds(new java.awt.Rectangle(380,75,120,20));
+			titleScriptFile.setBounds(new Rectangle(380, 73, 120, 20));
 			titleScriptFile.setHorizontalAlignment(SwingConstants.CENTER);
 			titleScriptFile.setText("Script File");
 			titleScriptFile.setBackground(new Color(255, 204, 204));
 			titleDeal = new JLabel();
-			titleDeal.setBounds(new Rectangle(670, 75, 210, 20));
+			titleDeal.setBounds(new Rectangle(727, 73, 210, 20));
 			titleDeal.setHorizontalAlignment(SwingConstants.CENTER);
 			titleDeal.setText("Operation");
 			titleDeal.setBackground(new Color(255, 204, 204));
@@ -141,24 +141,24 @@ public class ScriptListDialog extends JDialog {
 			pageInfoLbl.setHorizontalAlignment(SwingConstants.CENTER);
 			pageInfoLbl.setText("JLabel");
 			titleSelect = new JLabel();
-			titleSelect.setBounds(new Rectangle(600, 75, 70, 20));
+			titleSelect.setBounds(new Rectangle(650, 73, 70, 20));
 			titleSelect.setHorizontalAlignment(SwingConstants.CENTER);
 			titleSelect.setBackground(new Color(255,204,204));
 			titleSelect.setText("Select");
 			titleScriptName = new JLabel();
-			titleScriptName.setBounds(new java.awt.Rectangle(110,75,270,20));
+			titleScriptName.setBounds(new Rectangle(110, 73, 270, 20));
 			titleScriptName.setHorizontalAlignment(SwingConstants.CENTER);
 			titleScriptName.setBackground(new Color(255,204,204));
 			titleScriptName.setText("Script Name");
 			titleScriptId = new JLabel();
-			titleScriptId.setBounds(new java.awt.Rectangle(11,75,100,22));
+			titleScriptId.setBounds(new Rectangle(11, 73, 100, 22));
 			titleScriptId.setHorizontalAlignment(SwingConstants.CENTER);
 			titleScriptId.setText("Script ID");
 			lblScriptSelect = new JLabel();
-			lblScriptSelect.setBounds(new java.awt.Rectangle(10,40,80,20));
+			lblScriptSelect.setBounds(new Rectangle(10, 40, 130, 20));
 			lblScriptSelect.setText("Script Name");
 			jLabel = new JLabel();
-			jLabel.setBounds(new Rectangle(10, 10, 500, 24));
+			jLabel.setBounds(new Rectangle(10, 10, 800, 24));
 			jLabel.setText("Select the Script which you want to execute.One time just one script can be execute.");
 			jPanel = new JPanel();
 			jPanel.setLayout(null);
@@ -184,11 +184,14 @@ public class ScriptListDialog extends JDialog {
 				@SuppressWarnings("rawtypes")
 				public void actionPerformed(ActionEvent e) {
 					try {
+						// add datetime dialog by chunhui.li is tart
+				        DateTimeChooserDialog dDialog = new DateTimeChooserDialog(ScriptListDialog.this, "日付タイム選択", true);
+				        String strDate = dDialog.getInputValue();
+						// add datetime dialog by chunhui.li is tart
 						
 						DateTimeChooserDialog dDialog = new DateTimeChooserDialog(ScriptListDialog.this, "日付タイム選択", true);
 						String strDate = dDialog.getInputValue();
 						
-						//String strDate = JOptionPane.showInputDialog(ScriptListDialog.this, "Please Input the time when the job will be executed[yyyy/MM/dd HH:mm:ss]!");
 						
 						if (Utils.isEmpty(strDate)) {
 							JOptionPane.showMessageDialog(ScriptListDialog.this, "Please input the date!");
@@ -262,7 +265,7 @@ public class ScriptListDialog extends JDialog {
 			btnTimer.setText("Timer");
 			btnTimer.setSize(new Dimension(150, 30));
 			btnTimer.setLocation(new Point(10, 507));
-			btnTimer.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnTimer.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnTimer.setBounds(170, 507, 150, 30);
 			jPanel.add(btnTimer);
 			
@@ -319,7 +322,7 @@ public class ScriptListDialog extends JDialog {
 			btnTestExec.setText("Test Execute");
 			btnTestExec.setSize(new Dimension(150, 30));
 			btnTestExec.setLocation(new Point(10, 507));
-			btnTestExec.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnTestExec.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnTestExec.setBounds(330, 507, 150, 30);
 			jPanel.add(btnTestExec);
 			jPanel.add(getTitleMailSetting());
@@ -345,7 +348,7 @@ public class ScriptListDialog extends JDialog {
 			scriptIdInit.setBounds(new java.awt.Rectangle(3,0,100,20));
 			scriptIdInit.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new Rectangle(10, 95, 870, 300));
+			excelSheet.setBounds(new Rectangle(10, 95, 965, 300));
 			excelSheet.setLayout(null);
 			excelSheet.add(scriptIdInit, null);
 			excelSheet.add(getExcelCheckInit(), null);
@@ -369,7 +372,7 @@ public class ScriptListDialog extends JDialog {
 			btnExecute = new JButton();
 			btnExecute.setText("Execute");
 			btnExecute.setSize(new Dimension(150,30));
-			btnExecute.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnExecute.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnExecute.setLocation(new java.awt.Point(10,507));
 			btnExecute.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -434,7 +437,7 @@ public class ScriptListDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new Dimension(90,30));
-			jButton.setLocation(new Point(790, 500));
+			jButton.setLocation(new Point(840, 500));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					hide();
@@ -484,7 +487,7 @@ public class ScriptListDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new Dimension(90,30));
+			preButton.setSize(new Dimension(130, 30));
 			preButton.setLocation(new java.awt.Point(10,399));
 		}
 		return preButton;
@@ -498,9 +501,9 @@ public class ScriptListDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new Point(790, 403));
+			afterButton.setLocation(new Point(840, 403));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new Dimension(90,30));
+			afterButton.setSize(new Dimension(130, 30));
 		}
 		return afterButton;
 	}
@@ -513,7 +516,7 @@ public class ScriptListDialog extends JDialog {
 	private JCheckBox getExcelCheckInit() {
 		if (scriptCheckInit == null) {
 			scriptCheckInit = new JCheckBox();
-			scriptCheckInit.setBounds(new Rectangle(587, 0, 70, 20));
+			scriptCheckInit.setBounds(new Rectangle(640, 0, 70, 20));
 			scriptCheckInit.setHorizontalAlignment(SwingConstants.CENTER);
 			scriptCheckInit.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -532,7 +535,7 @@ public class ScriptListDialog extends JDialog {
 		if (scriptSelect == null) {
 			scriptSelect = new JButton();
 			scriptSelect.setText("Search");
-			scriptSelect.setLocation(new java.awt.Point(236,40));
+			scriptSelect.setLocation(new Point(286, 40));
 			scriptSelect.setSize(new Dimension(110,20));
 			scriptSelect.setPreferredSize(new Dimension(70, 30));
 			scriptSelect.addActionListener(new java.awt.event.ActionListener() {
@@ -557,7 +560,7 @@ public class ScriptListDialog extends JDialog {
 	private JTextField getSearchScriptName() {
 		if (searchScriptName == null) {
 			searchScriptName = new JTextField();
-			searchScriptName.setBounds(new java.awt.Rectangle(100,40,130,20));
+			searchScriptName.setBounds(new Rectangle(150, 40, 130, 20));
 		}
 		return searchScriptName;
 	}
@@ -570,7 +573,7 @@ public class ScriptListDialog extends JDialog {
 	private JButton getJButton1() {
 		if (jButton1 == null) {
 			jButton1 = new JButton();
-			jButton1.setBounds(new Rectangle(770, 40, 110, 20));
+			jButton1.setBounds(new Rectangle(820, 40, 150, 20));
 			jButton1.setText("Add Script");
 			jButton1.setPreferredSize(new Dimension(70, 30));
 			jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -602,9 +605,9 @@ public class ScriptListDialog extends JDialog {
 	private JButton getJButton2() {
 		if (jButton2 == null) {
 			jButton2 = new JButton();
-			jButton2.setBounds(new Rectangle(657, 0, 70, 20));
+			jButton2.setBounds(new Rectangle(717, 0, 90, 20));
 			jButton2.setText("Detail");
-			jButton2.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton2.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton2.setPreferredSize(new Dimension(70, 30));
 			jButton2.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -654,9 +657,9 @@ public class ScriptListDialog extends JDialog {
 	private JButton getJButton3() {
 		if (jButton3 == null) {
 			jButton3 = new JButton();
-			jButton3.setBounds(new Rectangle(727, 0, 70, 20));
+			jButton3.setBounds(new Rectangle(807, 0, 85, 20));
 			jButton3.setText("Copy");
-			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton3.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton3.setPreferredSize(new Dimension(70, 30));
 			jButton3.addActionListener(new java.awt.event.ActionListener() {
 				@SuppressWarnings("rawtypes")
@@ -719,10 +722,10 @@ public class ScriptListDialog extends JDialog {
 	private JButton getJButton4() {
 		if (jButton4 == null) {
 			jButton4 = new JButton();
-			jButton4.setBounds(new Rectangle(797, 0, 70, 20));
+			jButton4.setBounds(new Rectangle(892, 0, 70, 20));
 			jButton4.setPreferredSize(new Dimension(70, 30));
 			jButton4.setText("Del");
-			jButton4.setFont(new Font("Dialog", Font.BOLD, 10));
+//			jButton4.setFont(new Font("Dialog", Font.BOLD, 10));
 			jButton4.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					int iResult = JOptionPane.showConfirmDialog(ScriptListDialog.this, "Do you want to delete?");
@@ -753,7 +756,7 @@ public class ScriptListDialog extends JDialog {
 			titleMailSetting.setHorizontalAlignment(SwingConstants.CENTER);
 			titleMailSetting.setBounds(new Rectangle(380, 75, 120, 20));
 			titleMailSetting.setBackground(new Color(255, 204, 204));
-			titleMailSetting.setBounds(500, 75, 100, 20);
+			titleMailSetting.setBounds(500, 73, 150, 20);
 		}
 		return titleMailSetting;
 	}
@@ -785,6 +788,10 @@ public class ScriptListDialog extends JDialog {
 					String strErrorMail = (String)valueMap.get("ERROR_MAIL");
 					
 					MailListDialog dialog = new MailListDialog(strEndMail, strErrorMail, strScriptId, strScriptName, true);
+			        // --------------------------------------------------------
+			        // 弹出窗口居中表示追加 add by chunhui.li 2017/06/27
+			        // -------------------------------------------------------
+					dialog.setLocationRelativeTo(null);
 					dialog.setModal(true);
 					dialog.setVisible(true);
 					
@@ -797,9 +804,9 @@ public class ScriptListDialog extends JDialog {
 			});
 			btnMailSettingInit.setText("Mail Set");
 			btnMailSettingInit.setPreferredSize(new Dimension(70, 30));
-			btnMailSettingInit.setFont(new Font("Dialog", Font.BOLD, 10));
+//			btnMailSettingInit.setFont(new Font("Dialog", Font.BOLD, 10));
 			btnMailSettingInit.setBounds(new Rectangle(657, 0, 70, 20));
-			btnMailSettingInit.setBounds(503, 0, 80, 20);
+			btnMailSettingInit.setBounds(503, 0, 140, 20);
 		}
 		return btnMailSettingInit;
 	}

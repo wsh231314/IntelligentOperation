@@ -89,7 +89,7 @@ public class TableInfoDialog extends JDialog {
 	 * 
 	 */
 	private void initialize() {
-        this.setSize(new java.awt.Dimension(800,600));
+        this.setSize(new Dimension(810, 600));
         this.setContentPane(this.getJPanel());
         List title = new ArrayList();
         title.add("No");
@@ -130,7 +130,7 @@ public class TableInfoDialog extends JDialog {
 	private JPanel getJPanel() {
 		if (jPanel == null) {
 			jLabel7 = new JLabel();
-			jLabel7.setBounds(new java.awt.Rectangle(728,65,45,20));
+			jLabel7.setBounds(new Rectangle(728, 65, 60, 20));
 			jLabel7.setHorizontalAlignment(SwingConstants.CENTER);
 			jLabel7.setText("Length");
 			jLabel7.setBackground(new Color(255, 204, 204));
@@ -224,7 +224,7 @@ public class TableInfoDialog extends JDialog {
 			detailRadom.setBounds(new java.awt.Rectangle(658,0,60,20));
 			detailRadom.setText("");
 			detailLength = new JLabel();
-			detailLength.setBounds(new java.awt.Rectangle(719,0,45,20));
+			detailLength.setBounds(new Rectangle(719, 0, 57, 20));
 			detailLength.setText("");
 			detailPattern = new JLabel();
 			detailPattern.setBounds(new java.awt.Rectangle(567,0,90,20));
@@ -242,7 +242,7 @@ public class TableInfoDialog extends JDialog {
 			detailNo.setBounds(new java.awt.Rectangle(3,0,50,20));
 			detailNo.setText("JLabel");
 			excelSheet = new JPanel();
-			excelSheet.setBounds(new java.awt.Rectangle(10,85,770,399));
+			excelSheet.setBounds(new Rectangle(10, 85, 780, 399));
 			excelSheet.setLayout(null);
 			excelSheet.add(detailNo, null);
 			excelSheet.add(detailColumn, null);
@@ -265,7 +265,7 @@ public class TableInfoDialog extends JDialog {
 			jButton = new JButton();
 			jButton.setText("Close");
 			jButton.setSize(new java.awt.Dimension(90,30));
-			jButton.setLocation(new java.awt.Point(690,526));
+			jButton.setLocation(new Point(670, 526));
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					hide();
@@ -314,7 +314,7 @@ public class TableInfoDialog extends JDialog {
 		if (preButton == null) {
 			preButton = new JButton();
 			preButton.setText("Prev Page");
-			preButton.setSize(new java.awt.Dimension(90,30));
+			preButton.setSize(new Dimension(120, 30));
 			preButton.setLocation(new java.awt.Point(11,491));
 		}
 		return preButton;
@@ -328,9 +328,9 @@ public class TableInfoDialog extends JDialog {
 	private JButton getAfterButton() {
 		if (afterButton == null) {
 			afterButton = new JButton();
-			afterButton.setLocation(new java.awt.Point(690,491));
+			afterButton.setLocation(new Point(670, 491));
 			afterButton.setText("Next Page");
-			afterButton.setSize(new java.awt.Dimension(90,30));
+			afterButton.setSize(new Dimension(120, 30));
 		}
 		return afterButton;
 	}
