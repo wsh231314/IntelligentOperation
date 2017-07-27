@@ -189,7 +189,9 @@ public class ScriptListDialog extends JDialog {
 				        String strDate = dDialog.getInputValue();
 						// add datetime dialog by chunhui.li is tart
 						
-//						String strDate = JOptionPane.showInputDialog(ScriptListDialog.this, "Please Input the time when the job will be executed[yyyy/MM/dd HH:mm:ss]!");
+						DateTimeChooserDialog dDialog = new DateTimeChooserDialog(ScriptListDialog.this, "日付タイム選択", true);
+						String strDate = dDialog.getInputValue();
+						
 						
 						if (Utils.isEmpty(strDate)) {
 							JOptionPane.showMessageDialog(ScriptListDialog.this, "Please input the date!");

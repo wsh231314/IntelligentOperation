@@ -47,7 +47,6 @@ public class CommonConstant {
 	public static final String MINUTE = "分";
 	public static final String SECOND = "秒";
 	public static final String WEEK[] = {"日", "月", "火", "水", "木", "金", "土"};
-	
 
 	public static final String FONT = "ＭＳ Ｐゴシック";
 	public static final int FONT_SIZE = 16;
