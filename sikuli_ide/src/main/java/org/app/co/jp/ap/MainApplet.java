@@ -118,7 +118,7 @@ public class MainApplet extends JFrame {
 	 */
 	public void initialize() {
 
-		this.setBounds(0, 0, 450, 700);
+		this.setBounds(0, 0, 600, 700);
         this.setContentPane(getMainPanel());
 
 		setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);

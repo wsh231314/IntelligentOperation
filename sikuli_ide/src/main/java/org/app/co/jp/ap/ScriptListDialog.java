@@ -185,9 +185,6 @@ public class ScriptListDialog extends JDialog {
 				public void actionPerformed(ActionEvent e) {
 					try {
 						// add datetime dialog by chunhui.li is tart
-				        DateTimeChooserDialog dDialog = new DateTimeChooserDialog(ScriptListDialog.this, "日付タイム選択", true);
-				        String strDate = dDialog.getInputValue();
-						// add datetime dialog by chunhui.li is tart
 						
 						DateTimeChooserDialog dDialog = new DateTimeChooserDialog(ScriptListDialog.this, "日付タイム選択", true);
 						String strDate = dDialog.getInputValue();
